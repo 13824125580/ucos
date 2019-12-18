@@ -1,0 +1,1077 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddrPtr	Software/uCOS-III/Source/os.h	/^    void                *AddrPtr;                           \/* Pointer to beginning of memory partition               *\/$/;"	m	struct:os_mem
+App_OS_ClrAllHooks	Software/uCOS-III/Cfg/Template/os_app_hooks.c	/^void  App_OS_ClrAllHooks (void)$/;"	f
+App_OS_IdleTaskHook	Software/uCOS-III/Cfg/Template/os_app_hooks.c	/^void  App_OS_IdleTaskHook (void)$/;"	f
+App_OS_InitHook	Software/uCOS-III/Cfg/Template/os_app_hooks.c	/^void  App_OS_InitHook (void)$/;"	f
+App_OS_SetAllHooks	Software/uCOS-III/Cfg/Template/os_app_hooks.c	/^void  App_OS_SetAllHooks (void)$/;"	f
+App_OS_StatTaskHook	Software/uCOS-III/Cfg/Template/os_app_hooks.c	/^void  App_OS_StatTaskHook (void)$/;"	f
+App_OS_TaskCreateHook	Software/uCOS-III/Cfg/Template/os_app_hooks.c	/^void  App_OS_TaskCreateHook (OS_TCB  *p_tcb)$/;"	f
+App_OS_TaskDelHook	Software/uCOS-III/Cfg/Template/os_app_hooks.c	/^void  App_OS_TaskDelHook (OS_TCB  *p_tcb)$/;"	f
+App_OS_TaskReturnHook	Software/uCOS-III/Cfg/Template/os_app_hooks.c	/^void  App_OS_TaskReturnHook (OS_TCB  *p_tcb)$/;"	f
+App_OS_TaskSwHook	Software/uCOS-III/Cfg/Template/os_app_hooks.c	/^void  App_OS_TaskSwHook (void)$/;"	f
+App_OS_TimeTickHook	Software/uCOS-III/Cfg/Template/os_app_hooks.c	/^void  App_OS_TimeTickHook (void)$/;"	f
+BlkSize	Software/uCOS-III/Source/os.h	/^    OS_MEM_SIZE          BlkSize;                           \/* Size (in bytes) of each block of memory                *\/$/;"	m	struct:os_mem
+CPUUsage	Software/uCOS-III/Source/os.h	/^    OS_CPU_USAGE         CPUUsage;                          \/* CPU Usage of task (0.00-100.00%)                       *\/$/;"	m	struct:os_tcb
+CPUUsageMax	Software/uCOS-III/Source/os.h	/^    OS_CPU_USAGE         CPUUsageMax;                       \/* CPU Usage of task (0.00-100.00%) - Peak                *\/$/;"	m	struct:os_tcb
+CallbackPtr	Software/uCOS-III/Source/os.h	/^    OS_TMR_CALLBACK_PTR  CallbackPtr;                       \/* Function to call when timer expires                    *\/$/;"	m	struct:os_tmr
+CallbackPtrArg	Software/uCOS-III/Source/os.h	/^    void                *CallbackPtrArg;                    \/* Argument to pass to function when timer expires        *\/$/;"	m	struct:os_tmr
+Ctr	Software/uCOS-III/Source/os.h	/^    OS_SEM_CTR           Ctr;$/;"	m	struct:os_sem
+CtxSwCtr	Software/uCOS-III/Source/os.h	/^    OS_CTX_SW_CTR        CtxSwCtr;                          \/* Number of time the task was switched in                *\/$/;"	m	struct:os_tcb
+CyclesDelta	Software/uCOS-III/Source/os.h	/^    CPU_TS               CyclesDelta;                       \/* value of OS_TS_GET() - .CyclesStart                    *\/$/;"	m	struct:os_tcb
+CyclesStart	Software/uCOS-III/Source/os.h	/^    CPU_TS               CyclesStart;                       \/* Snapshot of cycle counter at start of task resumption  *\/$/;"	m	struct:os_tcb
+CyclesTotal	Software/uCOS-III/Source/os.h	/^    OS_CYCLES            CyclesTotal;                       \/* Total number of # of cycles the task has been running  *\/$/;"	m	struct:os_tcb
+CyclesTotalPrev	Software/uCOS-III/Source/os.h	/^    OS_CYCLES            CyclesTotalPrev;                   \/* Snapshot of previous # of cycles                       *\/$/;"	m	struct:os_tcb
+DbgNamePtr	Software/uCOS-III/Source/os.h	/^    CPU_CHAR            *DbgNamePtr;$/;"	m	struct:os_flag_grp
+DbgNamePtr	Software/uCOS-III/Source/os.h	/^    CPU_CHAR            *DbgNamePtr;$/;"	m	struct:os_mutex
+DbgNamePtr	Software/uCOS-III/Source/os.h	/^    CPU_CHAR            *DbgNamePtr;$/;"	m	struct:os_pend_obj
+DbgNamePtr	Software/uCOS-III/Source/os.h	/^    CPU_CHAR            *DbgNamePtr;$/;"	m	struct:os_q
+DbgNamePtr	Software/uCOS-III/Source/os.h	/^    CPU_CHAR            *DbgNamePtr;$/;"	m	struct:os_sem
+DbgNamePtr	Software/uCOS-III/Source/os.h	/^    CPU_CHAR            *DbgNamePtr;$/;"	m	struct:os_tcb
+DbgNextPtr	Software/uCOS-III/Source/os.h	/^    OS_FLAG_GRP         *DbgNextPtr;$/;"	m	struct:os_flag_grp
+DbgNextPtr	Software/uCOS-III/Source/os.h	/^    OS_MEM              *DbgNextPtr;$/;"	m	struct:os_mem
+DbgNextPtr	Software/uCOS-III/Source/os.h	/^    OS_MUTEX            *DbgNextPtr;$/;"	m	struct:os_mutex
+DbgNextPtr	Software/uCOS-III/Source/os.h	/^    OS_Q                *DbgNextPtr;$/;"	m	struct:os_q
+DbgNextPtr	Software/uCOS-III/Source/os.h	/^    OS_SEM              *DbgNextPtr;$/;"	m	struct:os_sem
+DbgNextPtr	Software/uCOS-III/Source/os.h	/^    OS_TCB              *DbgNextPtr;$/;"	m	struct:os_tcb
+DbgNextPtr	Software/uCOS-III/Source/os.h	/^    OS_TMR              *DbgNextPtr;$/;"	m	struct:os_tmr
+DbgNextPtr	Software/uCOS-III/Source/os.h	/^    void                *DbgNextPtr;$/;"	m	struct:os_pend_obj
+DbgPrevPtr	Software/uCOS-III/Source/os.h	/^    OS_FLAG_GRP         *DbgPrevPtr;$/;"	m	struct:os_flag_grp
+DbgPrevPtr	Software/uCOS-III/Source/os.h	/^    OS_MEM              *DbgPrevPtr;$/;"	m	struct:os_mem
+DbgPrevPtr	Software/uCOS-III/Source/os.h	/^    OS_MUTEX            *DbgPrevPtr;$/;"	m	struct:os_mutex
+DbgPrevPtr	Software/uCOS-III/Source/os.h	/^    OS_Q                *DbgPrevPtr;$/;"	m	struct:os_q
+DbgPrevPtr	Software/uCOS-III/Source/os.h	/^    OS_SEM              *DbgPrevPtr;$/;"	m	struct:os_sem
+DbgPrevPtr	Software/uCOS-III/Source/os.h	/^    OS_TCB              *DbgPrevPtr;$/;"	m	struct:os_tcb
+DbgPrevPtr	Software/uCOS-III/Source/os.h	/^    OS_TMR              *DbgPrevPtr;$/;"	m	struct:os_tmr
+DbgPrevPtr	Software/uCOS-III/Source/os.h	/^    void                *DbgPrevPtr;$/;"	m	struct:os_pend_obj
+Dly	Software/uCOS-III/Source/os.h	/^    OS_TICK              Dly;                               \/* Delay before start of repeat                           *\/$/;"	m	struct:os_tmr
+ExtPtr	Software/uCOS-III/Source/os.h	/^    void                *ExtPtr;                            \/* Pointer to user definable data for TCB extension       *\/$/;"	m	struct:os_tcb
+FirstPtr	Software/uCOS-III/Source/os.h	/^    OS_TCB              *FirstPtr;                          \/* Pointer to list of tasks in tick spoke                 *\/$/;"	m	struct:os_tick_spoke
+FirstPtr	Software/uCOS-III/Source/os.h	/^    OS_TMR              *FirstPtr;                          \/* Pointer to first timer in linked list                  *\/$/;"	m	struct:os_tmr_spoke
+Flags	Software/uCOS-III/Source/os.h	/^    OS_FLAGS             Flags;                             \/* 8, 16 or 32 bit flags                                  *\/$/;"	m	struct:os_flag_grp
+Flags	Software/uCOS-III/Source/os.h	/^    OS_FLAGS             Flags;                             \/* Value of flags if posting to an event flag group       *\/$/;"	m	struct:os_int_q
+FlagsOpt	Software/uCOS-III/Source/os.h	/^    OS_OPT               FlagsOpt;                          \/* Options (See OS_OPT_FLAG_xxx)                          *\/$/;"	m	struct:os_tcb
+FlagsPend	Software/uCOS-III/Source/os.h	/^    OS_FLAGS             FlagsPend;                         \/* Event flag(s) to wait on                               *\/$/;"	m	struct:os_tcb
+FlagsRdy	Software/uCOS-III/Source/os.h	/^    OS_FLAGS             FlagsRdy;                          \/* Event flags that made task ready to run                *\/$/;"	m	struct:os_tcb
+FreeListPtr	Software/uCOS-III/Source/os.h	/^    void                *FreeListPtr;                       \/* Pointer to list of free memory blocks                  *\/$/;"	m	struct:os_mem
+HeadPtr	Software/uCOS-III/Source/os.h	/^    OS_PEND_DATA        *HeadPtr;$/;"	m	struct:os_pend_list
+HeadPtr	Software/uCOS-III/Source/os.h	/^    OS_TCB              *HeadPtr;                           \/* Pointer to task that will run at selected priority     *\/$/;"	m	struct:os_rdy_list
+InPtr	Software/uCOS-III/Source/os.h	/^    OS_MSG              *InPtr;                             \/* Pointer to next OS_MSG to be inserted  in   the queue  *\/$/;"	m	struct:os_msg_q
+IntDisTimeMax	Software/uCOS-III/Source/os.h	/^    CPU_TS               IntDisTimeMax;                     \/* Maximum interrupt disable time                         *\/$/;"	m	struct:os_tcb
+MICRIUM_SOURCE	Software/uCOS-III/Cfg/Template/os_app_hooks.c	33;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_cfg_app.c	35;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_core.c	33;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_dbg.c	33;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_flag.c	33;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_int.c	33;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_mem.c	33;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_msg.c	33;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_mutex.c	33;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_pend_multi.c	33;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_prio.c	33;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_q.c	33;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_sem.c	33;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_stat.c	33;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_task.c	33;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_tick.c	33;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_time.c	33;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_tmr.c	33;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/Source/os_var.c	35;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/TLS/CCES/os_tls.c	34;"	d	file:
+MICRIUM_SOURCE	Software/uCOS-III/TLS/IAR/os_tls.c	34;"	d	file:
+Match	Software/uCOS-III/Source/os.h	/^    OS_TICK              Match;                             \/* Timer expires when OSTmrTickCtr matches this value     *\/$/;"	m	struct:os_tmr
+MsgPtr	Software/uCOS-III/Source/os.h	/^    void                *MsgPtr;                            \/* Actual message                                         *\/$/;"	m	struct:os_msg
+MsgPtr	Software/uCOS-III/Source/os.h	/^    void                *MsgPtr;                            \/* Message received                                       *\/$/;"	m	struct:os_tcb
+MsgPtr	Software/uCOS-III/Source/os.h	/^    void                *MsgPtr;                            \/* Pointer to message if posting to a message queue       *\/$/;"	m	struct:os_int_q
+MsgQ	Software/uCOS-III/Source/os.h	/^    OS_MSG_Q             MsgQ;                              \/* List of messages                                       *\/$/;"	m	struct:os_q
+MsgQ	Software/uCOS-III/Source/os.h	/^    OS_MSG_Q             MsgQ;                              \/* Message queue associated with task                     *\/$/;"	m	struct:os_tcb
+MsgQPendTime	Software/uCOS-III/Source/os.h	/^    CPU_TS               MsgQPendTime;                      \/* Time it took for signal to be received                 *\/$/;"	m	struct:os_tcb
+MsgQPendTimeMax	Software/uCOS-III/Source/os.h	/^    CPU_TS               MsgQPendTimeMax;                   \/* Max amount of time it took for signal to be received   *\/$/;"	m	struct:os_tcb
+MsgSize	Software/uCOS-III/Source/os.h	/^    OS_MSG_SIZE          MsgSize;                           \/* Message Size       if posting to a message queue       *\/$/;"	m	struct:os_int_q
+MsgSize	Software/uCOS-III/Source/os.h	/^    OS_MSG_SIZE          MsgSize;                           \/* Size of the message (in # bytes)                       *\/$/;"	m	struct:os_msg
+MsgSize	Software/uCOS-III/Source/os.h	/^    OS_MSG_SIZE          MsgSize;$/;"	m	struct:os_tcb
+MsgTS	Software/uCOS-III/Source/os.h	/^    CPU_TS               MsgTS;                             \/* Time stamp of when message was sent                    *\/$/;"	m	struct:os_msg
+Mutex	Software/uCOS-III/TLS/IAR/os_tls.c	/^    OS_MUTEX      Mutex;                                                  \/* OS Mutex object.                         *\/$/;"	m	struct:os_tls_lock	file:
+NamePtr	Software/uCOS-III/Source/os.h	/^    CPU_CHAR            *NamePtr;                           \/* Name to give the timer                                 *\/$/;"	m	struct:os_tmr
+NamePtr	Software/uCOS-III/Source/os.h	/^    CPU_CHAR            *NamePtr;                           \/* Pointer to Event Flag Name (NUL terminated ASCII)      *\/$/;"	m	struct:os_flag_grp
+NamePtr	Software/uCOS-III/Source/os.h	/^    CPU_CHAR            *NamePtr;                           \/* Pointer to Message Queue Name (NUL terminated ASCII)   *\/$/;"	m	struct:os_q
+NamePtr	Software/uCOS-III/Source/os.h	/^    CPU_CHAR            *NamePtr;                           \/* Pointer to Mutex Name (NUL terminated ASCII)           *\/$/;"	m	struct:os_mutex
+NamePtr	Software/uCOS-III/Source/os.h	/^    CPU_CHAR            *NamePtr;                           \/* Pointer to Semaphore Name (NUL terminated ASCII)       *\/$/;"	m	struct:os_sem
+NamePtr	Software/uCOS-III/Source/os.h	/^    CPU_CHAR            *NamePtr;                           \/* Pointer to task name                                   *\/$/;"	m	struct:os_tcb
+NamePtr	Software/uCOS-III/Source/os.h	/^    CPU_CHAR            *NamePtr;$/;"	m	struct:os_mem
+NamePtr	Software/uCOS-III/Source/os.h	/^    CPU_CHAR            *NamePtr;$/;"	m	struct:os_pend_obj
+NbrEntries	Software/uCOS-III/Source/os.h	/^    OS_MSG_QTY           NbrEntries;                        \/* Current number of entries in the queue                 *\/$/;"	m	struct:os_msg_q
+NbrEntries	Software/uCOS-III/Source/os.h	/^    OS_OBJ_QTY           NbrEntries;                        \/* Current number of entries in the tick spoke            *\/$/;"	m	struct:os_tick_spoke
+NbrEntries	Software/uCOS-III/Source/os.h	/^    OS_OBJ_QTY           NbrEntries;                        \/* Number of entries             at selected priority     *\/$/;"	m	struct:os_rdy_list
+NbrEntries	Software/uCOS-III/Source/os.h	/^    OS_OBJ_QTY           NbrEntries;$/;"	m	struct:os_pend_list
+NbrEntries	Software/uCOS-III/Source/os.h	/^    OS_OBJ_QTY           NbrEntries;$/;"	m	struct:os_tmr_spoke
+NbrEntriesMax	Software/uCOS-III/Source/os.h	/^    OS_MSG_QTY           NbrEntriesMax;                     \/* Peak number of entries in the queue                    *\/$/;"	m	struct:os_msg_q
+NbrEntriesMax	Software/uCOS-III/Source/os.h	/^    OS_OBJ_QTY           NbrEntriesMax;                     \/* Peak number of entries in the tick spoke               *\/$/;"	m	struct:os_tick_spoke
+NbrEntriesMax	Software/uCOS-III/Source/os.h	/^    OS_OBJ_QTY           NbrEntriesMax;$/;"	m	struct:os_tmr_spoke
+NbrEntriesSize	Software/uCOS-III/Source/os.h	/^    OS_MSG_QTY           NbrEntriesSize;                    \/* Maximum allowable number of entries in the queue       *\/$/;"	m	struct:os_msg_q
+NbrFree	Software/uCOS-III/Source/os.h	/^    OS_MEM_QTY           NbrFree;                           \/* Number of memory blocks remaining in this partition    *\/$/;"	m	struct:os_mem
+NbrFree	Software/uCOS-III/Source/os.h	/^    OS_MSG_QTY           NbrFree;                           \/* Number of messages available from this pool            *\/$/;"	m	struct:os_msg_pool
+NbrMax	Software/uCOS-III/Source/os.h	/^    OS_MEM_QTY           NbrMax;                            \/* Total number of blocks in this partition               *\/$/;"	m	struct:os_mem
+NbrUsed	Software/uCOS-III/Source/os.h	/^    OS_MSG_QTY           NbrUsed;                           \/* Current number of messages used                        *\/$/;"	m	struct:os_msg_pool
+NbrUsedMax	Software/uCOS-III/Source/os.h	/^    OS_MSG_QTY           NbrUsedMax;                        \/* Peak number of messages used                           *\/$/;"	m	struct:os_msg_pool
+NextPtr	Software/uCOS-III/Source/os.h	/^    OS_INT_Q            *NextPtr;                           \/* Pointer to next OS_INT_Q in  circular list             *\/$/;"	m	struct:os_int_q
+NextPtr	Software/uCOS-III/Source/os.h	/^    OS_MSG              *NextPtr;                           \/* Pointer to next message                                *\/$/;"	m	struct:os_msg
+NextPtr	Software/uCOS-III/Source/os.h	/^    OS_MSG              *NextPtr;                           \/* Pointer to next message                                *\/$/;"	m	struct:os_msg_pool
+NextPtr	Software/uCOS-III/Source/os.h	/^    OS_PEND_DATA        *NextPtr;$/;"	m	struct:os_pend_data
+NextPtr	Software/uCOS-III/Source/os.h	/^    OS_TCB              *NextPtr;                           \/* Pointer to next     TCB in the TCB list                *\/$/;"	m	struct:os_tcb
+NextPtr	Software/uCOS-III/Source/os.h	/^    OS_TMR              *NextPtr;                           \/* Double link list pointers                              *\/$/;"	m	struct:os_tmr
+NextPtr	Software/uCOS-III/TLS/IAR/os_tls.c	/^    OS_TLS_LOCK  *NextPtr;                                                \/* Pointer to the next object in the pool.  *\/$/;"	m	struct:os_tls_lock	file:
+OSCfg_DataSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_DataSizeRAM          = sizeof(OSCfg_IdleTaskStk)$/;"	v
+OSCfg_ISRStk	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK        OSCfg_ISRStk        [OS_CFG_ISR_STK_SIZE];$/;"	v
+OSCfg_ISRStkBasePtr	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK      * const  OSCfg_ISRStkBasePtr        = (CPU_STK    *)&OSCfg_ISRStk[0];$/;"	v
+OSCfg_ISRStkBasePtr	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK      * const  OSCfg_ISRStkBasePtr        = (CPU_STK    *)0;$/;"	v
+OSCfg_ISRStkSize	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_ISRStkSize           = (CPU_STK_SIZE)0;$/;"	v
+OSCfg_ISRStkSize	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_ISRStkSize           = (CPU_STK_SIZE)OS_CFG_ISR_STK_SIZE;$/;"	v
+OSCfg_ISRStkSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_ISRStkSizeRAM        = (CPU_INT32U  )0;$/;"	v
+OSCfg_ISRStkSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_ISRStkSizeRAM        = (CPU_INT32U  )sizeof(OSCfg_ISRStk);$/;"	v
+OSCfg_IdleTaskStk	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK        OSCfg_IdleTaskStk   [OS_CFG_IDLE_TASK_STK_SIZE];$/;"	v
+OSCfg_IdleTaskStkBasePtr	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK      * const  OSCfg_IdleTaskStkBasePtr   = (CPU_STK    *)&OSCfg_IdleTaskStk[0];$/;"	v
+OSCfg_IdleTaskStkLimit	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_IdleTaskStkLimit     = (CPU_STK_SIZE)OS_CFG_IDLE_TASK_STK_LIMIT;$/;"	v
+OSCfg_IdleTaskStkSize	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_IdleTaskStkSize      = (CPU_STK_SIZE)OS_CFG_IDLE_TASK_STK_SIZE;$/;"	v
+OSCfg_IdleTaskStkSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_IdleTaskStkSizeRAM   = (CPU_INT32U  )sizeof(OSCfg_IdleTaskStk);$/;"	v
+OSCfg_Init	Software/uCOS-III/Source/os_cfg_app.c	/^void  OSCfg_Init (void)$/;"	f
+OSCfg_IntQ	Software/uCOS-III/Source/os_cfg_app.c	/^OS_INT_Q       OSCfg_IntQ          [OS_CFG_INT_Q_SIZE];$/;"	v
+OSCfg_IntQBasePtr	Software/uCOS-III/Source/os_cfg_app.c	/^OS_INT_Q     * const  OSCfg_IntQBasePtr          = (OS_INT_Q   *)&OSCfg_IntQ[0];$/;"	v
+OSCfg_IntQBasePtr	Software/uCOS-III/Source/os_cfg_app.c	/^OS_INT_Q     * const  OSCfg_IntQBasePtr          = (OS_INT_Q   *)0;$/;"	v
+OSCfg_IntQSize	Software/uCOS-III/Source/os_cfg_app.c	/^OS_OBJ_QTY     const  OSCfg_IntQSize             = (OS_OBJ_QTY  )0;$/;"	v
+OSCfg_IntQSize	Software/uCOS-III/Source/os_cfg_app.c	/^OS_OBJ_QTY     const  OSCfg_IntQSize             = (OS_OBJ_QTY  )OS_CFG_INT_Q_SIZE;$/;"	v
+OSCfg_IntQSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_IntQSizeRAM          = (CPU_INT32U  )0;$/;"	v
+OSCfg_IntQSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_IntQSizeRAM          = (CPU_INT32U  )sizeof(OSCfg_IntQ);$/;"	v
+OSCfg_IntQTaskStk	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK        OSCfg_IntQTaskStk   [OS_CFG_INT_Q_TASK_STK_SIZE];$/;"	v
+OSCfg_IntQTaskStkBasePtr	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK      * const  OSCfg_IntQTaskStkBasePtr   = (CPU_STK    *)&OSCfg_IntQTaskStk[0];$/;"	v
+OSCfg_IntQTaskStkBasePtr	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK      * const  OSCfg_IntQTaskStkBasePtr   = (CPU_STK    *)0;$/;"	v
+OSCfg_IntQTaskStkLimit	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_IntQTaskStkLimit     = (CPU_STK_SIZE)0;$/;"	v
+OSCfg_IntQTaskStkLimit	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_IntQTaskStkLimit     = (CPU_STK_SIZE)OS_CFG_INT_Q_TASK_STK_LIMIT;$/;"	v
+OSCfg_IntQTaskStkSize	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_IntQTaskStkSize      = (CPU_STK_SIZE)0;$/;"	v
+OSCfg_IntQTaskStkSize	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_IntQTaskStkSize      = (CPU_STK_SIZE)OS_CFG_INT_Q_TASK_STK_SIZE;$/;"	v
+OSCfg_IntQTaskStkSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_IntQTaskStkSizeRAM   = (CPU_INT32U  )0;$/;"	v
+OSCfg_IntQTaskStkSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_IntQTaskStkSizeRAM   = (CPU_INT32U  )sizeof(OSCfg_IntQTaskStk);$/;"	v
+OSCfg_MsgPool	Software/uCOS-III/Source/os_cfg_app.c	/^OS_MSG         OSCfg_MsgPool       [OS_CFG_MSG_POOL_SIZE];$/;"	v
+OSCfg_MsgPoolBasePtr	Software/uCOS-III/Source/os_cfg_app.c	/^OS_MSG       * const  OSCfg_MsgPoolBasePtr       = (OS_MSG    *)&OSCfg_MsgPool[0];$/;"	v
+OSCfg_MsgPoolBasePtr	Software/uCOS-III/Source/os_cfg_app.c	/^OS_MSG       * const  OSCfg_MsgPoolBasePtr       = (OS_MSG    *)0;$/;"	v
+OSCfg_MsgPoolSize	Software/uCOS-III/Source/os_cfg_app.c	/^OS_MSG_SIZE    const  OSCfg_MsgPoolSize          = (OS_MSG_SIZE)0;$/;"	v
+OSCfg_MsgPoolSize	Software/uCOS-III/Source/os_cfg_app.c	/^OS_MSG_SIZE    const  OSCfg_MsgPoolSize          = (OS_MSG_SIZE)OS_CFG_MSG_POOL_SIZE;$/;"	v
+OSCfg_MsgPoolSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_MsgPoolSizeRAM       = (CPU_INT32U )0;$/;"	v
+OSCfg_MsgPoolSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_MsgPoolSizeRAM       = (CPU_INT32U )sizeof(OSCfg_MsgPool);$/;"	v
+OSCfg_StatTaskPrio	Software/uCOS-III/Source/os_cfg_app.c	/^OS_PRIO        const  OSCfg_StatTaskPrio         = (OS_PRIO     )0;$/;"	v
+OSCfg_StatTaskPrio	Software/uCOS-III/Source/os_cfg_app.c	/^OS_PRIO        const  OSCfg_StatTaskPrio         = (OS_PRIO     )OS_CFG_STAT_TASK_PRIO;$/;"	v
+OSCfg_StatTaskRate_Hz	Software/uCOS-III/Source/os_cfg_app.c	/^OS_RATE_HZ     const  OSCfg_StatTaskRate_Hz      = (OS_RATE_HZ  )0;$/;"	v
+OSCfg_StatTaskRate_Hz	Software/uCOS-III/Source/os_cfg_app.c	/^OS_RATE_HZ     const  OSCfg_StatTaskRate_Hz      = (OS_RATE_HZ  )OS_CFG_STAT_TASK_RATE_HZ;$/;"	v
+OSCfg_StatTaskStk	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK        OSCfg_StatTaskStk   [OS_CFG_STAT_TASK_STK_SIZE];$/;"	v
+OSCfg_StatTaskStkBasePtr	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK      * const  OSCfg_StatTaskStkBasePtr   = (CPU_STK    *)&OSCfg_StatTaskStk[0];$/;"	v
+OSCfg_StatTaskStkBasePtr	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK      * const  OSCfg_StatTaskStkBasePtr   = (CPU_STK    *)0;$/;"	v
+OSCfg_StatTaskStkLimit	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_StatTaskStkLimit     = (CPU_STK_SIZE)0;$/;"	v
+OSCfg_StatTaskStkLimit	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_StatTaskStkLimit     = (CPU_STK_SIZE)OS_CFG_STAT_TASK_STK_LIMIT;$/;"	v
+OSCfg_StatTaskStkSize	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_StatTaskStkSize      = (CPU_STK_SIZE)0;$/;"	v
+OSCfg_StatTaskStkSize	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_StatTaskStkSize      = (CPU_STK_SIZE)OS_CFG_STAT_TASK_STK_SIZE;$/;"	v
+OSCfg_StatTaskStkSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_StatTaskStkSizeRAM   = (CPU_INT32U  )0;$/;"	v
+OSCfg_StatTaskStkSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_StatTaskStkSizeRAM   = (CPU_INT32U  )sizeof(OSCfg_StatTaskStk);$/;"	v
+OSCfg_StkSizeMin	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_StkSizeMin           = (CPU_STK_SIZE)OS_CFG_STK_SIZE_MIN;$/;"	v
+OSCfg_TickRate_Hz	Software/uCOS-III/Source/os_cfg_app.c	/^OS_RATE_HZ     const  OSCfg_TickRate_Hz          = (OS_RATE_HZ  )OS_CFG_TICK_RATE_HZ;$/;"	v
+OSCfg_TickTaskPrio	Software/uCOS-III/Source/os_cfg_app.c	/^OS_PRIO        const  OSCfg_TickTaskPrio         = (OS_PRIO     )OS_CFG_TICK_TASK_PRIO;$/;"	v
+OSCfg_TickTaskStk	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK        OSCfg_TickTaskStk   [OS_CFG_TICK_TASK_STK_SIZE];$/;"	v
+OSCfg_TickTaskStkBasePtr	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK      * const  OSCfg_TickTaskStkBasePtr   = (CPU_STK    *)&OSCfg_TickTaskStk[0];$/;"	v
+OSCfg_TickTaskStkLimit	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_TickTaskStkLimit     = (CPU_STK_SIZE)OS_CFG_TICK_TASK_STK_LIMIT;$/;"	v
+OSCfg_TickTaskStkSize	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_TickTaskStkSize      = (CPU_STK_SIZE)OS_CFG_TICK_TASK_STK_SIZE;$/;"	v
+OSCfg_TickTaskStkSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_TickTaskStkSizeRAM   = (CPU_INT32U  )sizeof(OSCfg_TickTaskStk);$/;"	v
+OSCfg_TickWheel	Software/uCOS-III/Source/os_cfg_app.c	/^OS_TICK_SPOKE  OSCfg_TickWheel     [OS_CFG_TICK_WHEEL_SIZE];$/;"	v
+OSCfg_TickWheelSize	Software/uCOS-III/Source/os_cfg_app.c	/^OS_OBJ_QTY     const  OSCfg_TickWheelSize        = (OS_OBJ_QTY  )OS_CFG_TICK_WHEEL_SIZE;$/;"	v
+OSCfg_TickWheelSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_TickWheelSizeRAM     = (CPU_INT32U  )sizeof(OSCfg_TickWheel);$/;"	v
+OSCfg_TmrTaskPrio	Software/uCOS-III/Source/os_cfg_app.c	/^OS_PRIO        const  OSCfg_TmrTaskPrio          = (OS_PRIO     )0;$/;"	v
+OSCfg_TmrTaskPrio	Software/uCOS-III/Source/os_cfg_app.c	/^OS_PRIO        const  OSCfg_TmrTaskPrio          = (OS_PRIO     )OS_CFG_TMR_TASK_PRIO;$/;"	v
+OSCfg_TmrTaskRate_Hz	Software/uCOS-III/Source/os_cfg_app.c	/^OS_RATE_HZ     const  OSCfg_TmrTaskRate_Hz       = (OS_RATE_HZ  )0;$/;"	v
+OSCfg_TmrTaskRate_Hz	Software/uCOS-III/Source/os_cfg_app.c	/^OS_RATE_HZ     const  OSCfg_TmrTaskRate_Hz       = (OS_RATE_HZ  )OS_CFG_TMR_TASK_RATE_HZ;$/;"	v
+OSCfg_TmrTaskStk	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK        OSCfg_TmrTaskStk    [OS_CFG_TMR_TASK_STK_SIZE];$/;"	v
+OSCfg_TmrTaskStkBasePtr	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK      * const  OSCfg_TmrTaskStkBasePtr    = (CPU_STK    *)&OSCfg_TmrTaskStk[0];$/;"	v
+OSCfg_TmrTaskStkBasePtr	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK      * const  OSCfg_TmrTaskStkBasePtr    = (CPU_STK    *)0;$/;"	v
+OSCfg_TmrTaskStkLimit	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_TmrTaskStkLimit      = (CPU_STK_SIZE)0;$/;"	v
+OSCfg_TmrTaskStkLimit	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_TmrTaskStkLimit      = (CPU_STK_SIZE)OS_CFG_TMR_TASK_STK_LIMIT;$/;"	v
+OSCfg_TmrTaskStkSize	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_TmrTaskStkSize       = (CPU_STK_SIZE)0;$/;"	v
+OSCfg_TmrTaskStkSize	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_STK_SIZE   const  OSCfg_TmrTaskStkSize       = (CPU_STK_SIZE)OS_CFG_TMR_TASK_STK_SIZE;$/;"	v
+OSCfg_TmrTaskStkSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_TmrTaskStkSizeRAM    = (CPU_INT32U  )0;$/;"	v
+OSCfg_TmrTaskStkSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_TmrTaskStkSizeRAM    = (CPU_INT32U  )sizeof(OSCfg_TmrTaskStk);$/;"	v
+OSCfg_TmrWheel	Software/uCOS-III/Source/os_cfg_app.c	/^OS_TMR_SPOKE   OSCfg_TmrWheel      [OS_CFG_TMR_WHEEL_SIZE];$/;"	v
+OSCfg_TmrWheelSize	Software/uCOS-III/Source/os_cfg_app.c	/^OS_OBJ_QTY     const  OSCfg_TmrWheelSize         = (OS_OBJ_QTY  )0;$/;"	v
+OSCfg_TmrWheelSize	Software/uCOS-III/Source/os_cfg_app.c	/^OS_OBJ_QTY     const  OSCfg_TmrWheelSize         = (OS_OBJ_QTY  )OS_CFG_TMR_WHEEL_SIZE;$/;"	v
+OSCfg_TmrWheelSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_TmrWheelSizeRAM      = (CPU_INT32U  )0;$/;"	v
+OSCfg_TmrWheelSizeRAM	Software/uCOS-III/Source/os_cfg_app.c	/^CPU_INT32U     const  OSCfg_TmrWheelSizeRAM      = (CPU_INT32U  )sizeof(OSCfg_TmrWheel);$/;"	v
+OSDbg_AppHooksEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_AppHooksEn            = OS_CFG_APP_HOOKS_EN;$/;"	v
+OSDbg_ArgChkEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_ArgChkEn              = OS_CFG_ARG_CHK_EN;$/;"	v
+OSDbg_CalledFromISRChkEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_CalledFromISRChkEn    = OS_CFG_CALLED_FROM_ISR_CHK_EN;$/;"	v
+OSDbg_DataSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT32U  const  OSDbg_DataSize = sizeof(OSIntNestingCtr)$/;"	v
+OSDbg_DbgEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_DbgEn                 = OS_CFG_DBG_EN;                \/* Debug constants are defined below   *\/$/;"	v
+OSDbg_EndiannessTest	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT32U  const  OSDbg_EndiannessTest        = 0x12345678LU;                 \/* Variable to test CPU endianness     *\/$/;"	v
+OSDbg_FlagDelEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_FlagDelEn             = 0u;$/;"	v
+OSDbg_FlagDelEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_FlagDelEn             = OS_CFG_FLAG_DEL_EN;$/;"	v
+OSDbg_FlagEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_FlagEn                = OS_CFG_FLAG_EN;$/;"	v
+OSDbg_FlagGrp	Software/uCOS-III/Source/os_dbg.c	/^OS_FLAG_GRP const  OSDbg_FlagGrp               = { 0u };$/;"	v
+OSDbg_FlagGrpSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_FlagGrpSize           = 0u;$/;"	v
+OSDbg_FlagGrpSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_FlagGrpSize           = sizeof(OS_FLAG_GRP);          \/* Size in Bytes of OS_FLAG_GRP        *\/$/;"	v
+OSDbg_FlagModeClrEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_FlagModeClrEn         = 0u;$/;"	v
+OSDbg_FlagModeClrEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_FlagModeClrEn         = OS_CFG_FLAG_MODE_CLR_EN;$/;"	v
+OSDbg_FlagPendAbortEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_FlagPendAbortEn       = 0u;$/;"	v
+OSDbg_FlagPendAbortEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_FlagPendAbortEn       = OS_CFG_FLAG_PEND_ABORT_EN;$/;"	v
+OSDbg_FlagWidth	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_FlagWidth             = 0u;$/;"	v
+OSDbg_FlagWidth	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_FlagWidth             = sizeof(OS_FLAGS);             \/* Width (in bytes) of OS_FLAGS        *\/$/;"	v
+OSDbg_ISRPostDeferredEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_ISRPostDeferredEn     = OS_CFG_ISR_POST_DEFERRED_EN;$/;"	v
+OSDbg_IntQ	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_IntQ                  = 0u;$/;"	v
+OSDbg_IntQ	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_IntQ                  = sizeof(OS_INT_Q);$/;"	v
+OSDbg_Mem	Software/uCOS-III/Source/os_dbg.c	/^OS_MEM      const  OSDbg_Mem                   = { 0u };$/;"	v
+OSDbg_MemEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_MemEn                 = OS_CFG_MEM_EN;$/;"	v
+OSDbg_MemSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_MemSize               = 0u;$/;"	v
+OSDbg_MemSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_MemSize               = sizeof(OS_MEM);               \/* Mem. Partition header size (bytes)  *\/$/;"	v
+OSDbg_MsgEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_MsgEn                 = OS_MSG_EN;$/;"	v
+OSDbg_MsgPoolSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_MsgPoolSize           = 0u;$/;"	v
+OSDbg_MsgPoolSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_MsgPoolSize           = sizeof(OS_MSG_POOL);$/;"	v
+OSDbg_MsgQSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_MsgQSize              = 0u;$/;"	v
+OSDbg_MsgQSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_MsgQSize              = sizeof(OS_MSG_Q);$/;"	v
+OSDbg_MsgSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_MsgSize               = 0u;$/;"	v
+OSDbg_MsgSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_MsgSize               = sizeof(OS_MSG);               \/* OS_MSG size                         *\/$/;"	v
+OSDbg_Mutex	Software/uCOS-III/Source/os_dbg.c	/^OS_MUTEX    const  OSDbg_Mutex                 = { 0u };$/;"	v
+OSDbg_MutexDelEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_MutexDelEn            = 0u;$/;"	v
+OSDbg_MutexDelEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_MutexDelEn            = OS_CFG_MUTEX_DEL_EN;$/;"	v
+OSDbg_MutexEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_MutexEn               = OS_CFG_MUTEX_EN;$/;"	v
+OSDbg_MutexPendAbortEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_MutexPendAbortEn      = 0u;$/;"	v
+OSDbg_MutexPendAbortEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_MutexPendAbortEn      = OS_CFG_MUTEX_PEND_ABORT_EN;$/;"	v
+OSDbg_MutexSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_MutexSize             = 0u;$/;"	v
+OSDbg_MutexSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_MutexSize             = sizeof(OS_MUTEX);             \/* Size in bytes of OS_MUTEX           *\/$/;"	v
+OSDbg_ObjTypeChkEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_ObjTypeChkEn          = OS_CFG_OBJ_TYPE_CHK_EN;$/;"	v
+OSDbg_PendDataSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_PendDataSize          = sizeof(OS_PEND_DATA);$/;"	v
+OSDbg_PendListSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_PendListSize          = sizeof(OS_PEND_LIST);$/;"	v
+OSDbg_PendMultiEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_PendMultiEn           = OS_CFG_PEND_MULTI_EN;$/;"	v
+OSDbg_PendObjSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_PendObjSize           = sizeof(OS_PEND_OBJ);$/;"	v
+OSDbg_PrioMax	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_PrioMax               = OS_CFG_PRIO_MAX;              \/* Maximum number of priorities        *\/$/;"	v
+OSDbg_PrioTblSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_PrioTblSize           = sizeof(OSPrioTbl);$/;"	v
+OSDbg_PtrSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_PtrSize               = sizeof(void *);               \/* Size in Bytes of a pointer          *\/$/;"	v
+OSDbg_Q	Software/uCOS-III/Source/os_dbg.c	/^OS_Q        const  OSDbg_Q                     = { 0u };$/;"	v
+OSDbg_QDelEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_QDelEn                = 0u;$/;"	v
+OSDbg_QDelEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_QDelEn                = OS_CFG_Q_DEL_EN;$/;"	v
+OSDbg_QEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_QEn                   = OS_CFG_Q_EN;$/;"	v
+OSDbg_QFlushEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_QFlushEn              = 0u;$/;"	v
+OSDbg_QFlushEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_QFlushEn              = OS_CFG_Q_FLUSH_EN;$/;"	v
+OSDbg_QPendAbortEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_QPendAbortEn          = 0u;$/;"	v
+OSDbg_QPendAbortEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_QPendAbortEn          = OS_CFG_Q_PEND_ABORT_EN;$/;"	v
+OSDbg_QSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_QSize                 = 0u;$/;"	v
+OSDbg_QSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_QSize                 = sizeof(OS_Q);                 \/* Size in bytes of OS_Q structure     *\/$/;"	v
+OSDbg_RdyList	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_RdyList               = sizeof(OS_RDY_LIST);$/;"	v
+OSDbg_RdyListSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT32U  const  OSDbg_RdyListSize           = sizeof(OSRdyList);            \/* Number of bytes in the ready table  *\/$/;"	v
+OSDbg_SchedRoundRobinEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_SchedRoundRobinEn     = OS_CFG_SCHED_ROUND_ROBIN_EN;$/;"	v
+OSDbg_Sem	Software/uCOS-III/Source/os_dbg.c	/^OS_SEM      const  OSDbg_Sem                   = { 0u };$/;"	v
+OSDbg_SemDelEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_SemDelEn              = 0u;$/;"	v
+OSDbg_SemDelEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_SemDelEn              = OS_CFG_SEM_DEL_EN;$/;"	v
+OSDbg_SemEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_SemEn                 = OS_CFG_SEM_EN;$/;"	v
+OSDbg_SemPendAbortEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_SemPendAbortEn        = 0u;$/;"	v
+OSDbg_SemPendAbortEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_SemPendAbortEn        = OS_CFG_SEM_PEND_ABORT_EN;$/;"	v
+OSDbg_SemSetEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_SemSetEn              = 0u;$/;"	v
+OSDbg_SemSetEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_SemSetEn              = OS_CFG_SEM_SET_EN;$/;"	v
+OSDbg_SemSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_SemSize               = 0u;$/;"	v
+OSDbg_SemSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_SemSize               = sizeof(OS_SEM);               \/* Size in bytes of OS_SEM             *\/$/;"	v
+OSDbg_StatTaskEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_StatTaskEn            = OS_CFG_STAT_TASK_EN;$/;"	v
+OSDbg_StatTaskStkChkEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_StatTaskStkChkEn      = OS_CFG_STAT_TASK_STK_CHK_EN;$/;"	v
+OSDbg_StkWidth	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_StkWidth              = sizeof(CPU_STK);$/;"	v
+OSDbg_TCBSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_TCBSize               = sizeof(OS_TCB);               \/* Size in Bytes of OS_TCB             *\/$/;"	v
+OSDbg_TLS_TblSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_TLS_TblSize           = 0u;$/;"	v
+OSDbg_TLS_TblSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_TLS_TblSize           = OS_CFG_TLS_TBL_SIZE * sizeof(OS_TLS);$/;"	v
+OSDbg_TaskChangePrioEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_TaskChangePrioEn      = OS_CFG_TASK_CHANGE_PRIO_EN;$/;"	v
+OSDbg_TaskDelEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_TaskDelEn             = OS_CFG_TASK_DEL_EN;$/;"	v
+OSDbg_TaskProfileEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_TaskProfileEn         = OS_CFG_TASK_PROFILE_EN;$/;"	v
+OSDbg_TaskQEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_TaskQEn               = OS_CFG_TASK_Q_EN;$/;"	v
+OSDbg_TaskQPendAbortEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_TaskQPendAbortEn      = OS_CFG_TASK_Q_PEND_ABORT_EN;$/;"	v
+OSDbg_TaskRegTblSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_TaskRegTblSize        = OS_CFG_TASK_REG_TBL_SIZE;$/;"	v
+OSDbg_TaskSemPendAbortEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_TaskSemPendAbortEn    = OS_CFG_TASK_SEM_PEND_ABORT_EN;$/;"	v
+OSDbg_TaskSuspendEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_TaskSuspendEn         = OS_CFG_TASK_SUSPEND_EN;$/;"	v
+OSDbg_TickSpokeSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_TickSpokeSize         = sizeof(OS_TICK_SPOKE);$/;"	v
+OSDbg_TimeDlyHMSMEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_TimeDlyHMSMEn         = OS_CFG_TIME_DLY_HMSM_EN;$/;"	v
+OSDbg_TimeDlyResumeEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_TimeDlyResumeEn       = OS_CFG_TIME_DLY_RESUME_EN;$/;"	v
+OSDbg_Tmr	Software/uCOS-III/Source/os_dbg.c	/^OS_TMR      const  OSDbg_Tmr                   = { 0u };$/;"	v
+OSDbg_TmrDelEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_TmrDelEn              = 0u;$/;"	v
+OSDbg_TmrDelEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_TmrDelEn              = OS_CFG_TMR_DEL_EN;$/;"	v
+OSDbg_TmrEn	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT08U  const  OSDbg_TmrEn                 = OS_CFG_TMR_EN;$/;"	v
+OSDbg_TmrSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_TmrSize               = 0u;$/;"	v
+OSDbg_TmrSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_TmrSize               = sizeof(OS_TMR);$/;"	v
+OSDbg_TmrSpokeSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_TmrSpokeSize          = 0u;$/;"	v
+OSDbg_TmrSpokeSize	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_TmrSpokeSize          = sizeof(OS_TMR_SPOKE);$/;"	v
+OSDbg_VersionNbr	Software/uCOS-III/Source/os_dbg.c	/^CPU_INT16U  const  OSDbg_VersionNbr            = OS_VERSION;$/;"	v
+OSFlagCreate	Software/uCOS-III/Source/os_flag.c	/^void  OSFlagCreate (OS_FLAG_GRP  *p_grp,$/;"	f
+OSFlagDbgListPtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_FLAG_GRP              *OSFlagDbgListPtr;$/;"	v
+OSFlagDel	Software/uCOS-III/Source/os_flag.c	/^OS_OBJ_QTY  OSFlagDel (OS_FLAG_GRP  *p_grp,$/;"	f
+OSFlagPend	Software/uCOS-III/Source/os_flag.c	/^OS_FLAGS  OSFlagPend (OS_FLAG_GRP  *p_grp,$/;"	f
+OSFlagPendAbort	Software/uCOS-III/Source/os_flag.c	/^OS_OBJ_QTY  OSFlagPendAbort (OS_FLAG_GRP  *p_grp,$/;"	f
+OSFlagPendGetFlagsRdy	Software/uCOS-III/Source/os_flag.c	/^OS_FLAGS  OSFlagPendGetFlagsRdy (OS_ERR  *p_err)$/;"	f
+OSFlagPost	Software/uCOS-III/Source/os_flag.c	/^OS_FLAGS  OSFlagPost (OS_FLAG_GRP  *p_grp,$/;"	f
+OSFlagQty	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_OBJ_QTY                OSFlagQty;$/;"	v
+OSIdleTaskCtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_IDLE_CTR               OSIdleTaskCtr;$/;"	v
+OSIdleTaskTCB	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_TCB                    OSIdleTaskTCB;$/;"	v
+OSInit	Software/uCOS-III/Source/os_core.c	/^void  OSInit (OS_ERR  *p_err)$/;"	f
+OSIntDisTimeMax	Software/uCOS-III/Source/os.h	/^OS_EXT            CPU_TS                    OSIntDisTimeMax;            \/* Overall interrupt disable time             *\/$/;"	v
+OSIntEnter	Software/uCOS-III/Source/os_core.c	/^void  OSIntEnter (void)$/;"	f
+OSIntExit	Software/uCOS-III/Source/os_core.c	/^void  OSIntExit (void)$/;"	f
+OSIntNestingCtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_NESTING_CTR            OSIntNestingCtr;            \/* Interrupt nesting level                    *\/$/;"	v
+OSIntQInPtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_INT_Q                 *OSIntQInPtr;$/;"	v
+OSIntQNbrEntries	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_OBJ_QTY                OSIntQNbrEntries;$/;"	v
+OSIntQNbrEntriesMax	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_OBJ_QTY                OSIntQNbrEntriesMax;$/;"	v
+OSIntQOutPtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_INT_Q                 *OSIntQOutPtr;$/;"	v
+OSIntQOvfCtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_OBJ_QTY                OSIntQOvfCtr;$/;"	v
+OSIntQTaskTCB	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_TCB                    OSIntQTaskTCB;$/;"	v
+OSIntQTaskTimeMax	Software/uCOS-III/Source/os.h	/^OS_EXT            CPU_TS                    OSIntQTaskTimeMax;$/;"	v
+OSMemCreate	Software/uCOS-III/Source/os_mem.c	/^void  OSMemCreate (OS_MEM       *p_mem,$/;"	f
+OSMemDbgListPtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_MEM                   *OSMemDbgListPtr;$/;"	v
+OSMemGet	Software/uCOS-III/Source/os_mem.c	/^void  *OSMemGet (OS_MEM  *p_mem,$/;"	f
+OSMemPut	Software/uCOS-III/Source/os_mem.c	/^void  OSMemPut (OS_MEM  *p_mem,$/;"	f
+OSMemQty	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_OBJ_QTY                OSMemQty;                   \/* Number of memory partitions created        *\/$/;"	v
+OSMsgPool	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_MSG_POOL               OSMsgPool;                  \/* Pool of OS_MSG                             *\/$/;"	v
+OSMutexCreate	Software/uCOS-III/Source/os_mutex.c	/^void  OSMutexCreate (OS_MUTEX  *p_mutex,$/;"	f
+OSMutexDbgListPtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_MUTEX                 *OSMutexDbgListPtr;$/;"	v
+OSMutexDel	Software/uCOS-III/Source/os_mutex.c	/^OS_OBJ_QTY  OSMutexDel (OS_MUTEX  *p_mutex,$/;"	f
+OSMutexPend	Software/uCOS-III/Source/os_mutex.c	/^void  OSMutexPend (OS_MUTEX  *p_mutex,$/;"	f
+OSMutexPendAbort	Software/uCOS-III/Source/os_mutex.c	/^OS_OBJ_QTY  OSMutexPendAbort (OS_MUTEX  *p_mutex,$/;"	f
+OSMutexPost	Software/uCOS-III/Source/os_mutex.c	/^void  OSMutexPost (OS_MUTEX  *p_mutex,$/;"	f
+OSMutexQty	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_OBJ_QTY                OSMutexQty;                 \/* Number of mutexes created                  *\/$/;"	v
+OSPendMulti	Software/uCOS-III/Source/os_pend_multi.c	/^OS_OBJ_QTY  OSPendMulti (OS_PEND_DATA  *p_pend_data_tbl,$/;"	f
+OSPrioCur	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_PRIO                   OSPrioCur;                  \/* Priority of current task                   *\/$/;"	v
+OSPrioHighRdy	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_PRIO                   OSPrioHighRdy;              \/* Priority of highest priority task          *\/$/;"	v
+OSPrioSaved	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_PRIO                   OSPrioSaved;                \/* Saved priority level when Post Deferred    *\/$/;"	v
+OSPrioTbl	Software/uCOS-III/Source/os_prio.c	/^CPU_DATA   OSPrioTbl[OS_PRIO_TBL_SIZE];                     \/* Declare the array local to this file to allow for  ... *\/$/;"	v
+OSQCreate	Software/uCOS-III/Source/os_q.c	/^void  OSQCreate (OS_Q        *p_q,$/;"	f
+OSQDbgListPtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_Q                     *OSQDbgListPtr;$/;"	v
+OSQDel	Software/uCOS-III/Source/os_q.c	/^OS_OBJ_QTY  OSQDel (OS_Q    *p_q,$/;"	f
+OSQFlush	Software/uCOS-III/Source/os_q.c	/^OS_MSG_QTY  OSQFlush (OS_Q    *p_q,$/;"	f
+OSQPend	Software/uCOS-III/Source/os_q.c	/^void  *OSQPend (OS_Q         *p_q,$/;"	f
+OSQPendAbort	Software/uCOS-III/Source/os_q.c	/^OS_OBJ_QTY  OSQPendAbort (OS_Q    *p_q,$/;"	f
+OSQPost	Software/uCOS-III/Source/os_q.c	/^void  OSQPost (OS_Q         *p_q,$/;"	f
+OSQQty	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_OBJ_QTY                OSQQty;                     \/* Number of message queues created           *\/$/;"	v
+OSRdyList	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_RDY_LIST               OSRdyList[OS_CFG_PRIO_MAX]; \/* Table of tasks ready to run                *\/$/;"	v
+OSRunning	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_STATE                  OSRunning;                  \/* Flag indicating that kernel is running     *\/$/;"	v
+OSSafetyCriticalStart	Software/uCOS-III/Source/os_core.c	/^void  OSSafetyCriticalStart (void)$/;"	f
+OSSafetyCriticalStartFlag	Software/uCOS-III/Source/os.h	/^OS_EXT            CPU_BOOLEAN               OSSafetyCriticalStartFlag;  \/* Flag indicating that all init. done        *\/$/;"	v
+OSSched	Software/uCOS-III/Source/os_core.c	/^void  OSSched (void)$/;"	f
+OSSchedLock	Software/uCOS-III/Source/os_core.c	/^void  OSSchedLock (OS_ERR  *p_err)$/;"	f
+OSSchedLockNestingCtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_NESTING_CTR            OSSchedLockNestingCtr;      \/* Lock nesting level                         *\/$/;"	v
+OSSchedLockTimeBegin	Software/uCOS-III/Source/os.h	/^OS_EXT            CPU_TS_TMR                OSSchedLockTimeBegin;       \/* Scheduler lock time measurement            *\/$/;"	v
+OSSchedLockTimeMax	Software/uCOS-III/Source/os.h	/^OS_EXT            CPU_TS_TMR                OSSchedLockTimeMax;$/;"	v
+OSSchedLockTimeMaxCur	Software/uCOS-III/Source/os.h	/^OS_EXT            CPU_TS_TMR                OSSchedLockTimeMaxCur;$/;"	v
+OSSchedRoundRobinCfg	Software/uCOS-III/Source/os_core.c	/^void  OSSchedRoundRobinCfg (CPU_BOOLEAN   en,$/;"	f
+OSSchedRoundRobinDfltTimeQuanta	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_TICK                   OSSchedRoundRobinDfltTimeQuanta;$/;"	v
+OSSchedRoundRobinEn	Software/uCOS-III/Source/os.h	/^OS_EXT            CPU_BOOLEAN               OSSchedRoundRobinEn;        \/* Enable\/Disable round-robin scheduling      *\/$/;"	v
+OSSchedRoundRobinYield	Software/uCOS-III/Source/os_core.c	/^void  OSSchedRoundRobinYield (OS_ERR  *p_err)$/;"	f
+OSSchedUnlock	Software/uCOS-III/Source/os_core.c	/^void  OSSchedUnlock (OS_ERR  *p_err)$/;"	f
+OSSemCreate	Software/uCOS-III/Source/os_sem.c	/^void  OSSemCreate (OS_SEM      *p_sem,$/;"	f
+OSSemDbgListPtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_SEM                   *OSSemDbgListPtr;$/;"	v
+OSSemDel	Software/uCOS-III/Source/os_sem.c	/^OS_OBJ_QTY  OSSemDel (OS_SEM  *p_sem,$/;"	f
+OSSemPend	Software/uCOS-III/Source/os_sem.c	/^OS_SEM_CTR  OSSemPend (OS_SEM   *p_sem,$/;"	f
+OSSemPendAbort	Software/uCOS-III/Source/os_sem.c	/^OS_OBJ_QTY  OSSemPendAbort (OS_SEM  *p_sem,$/;"	f
+OSSemPost	Software/uCOS-III/Source/os_sem.c	/^OS_SEM_CTR  OSSemPost (OS_SEM  *p_sem,$/;"	f
+OSSemQty	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_OBJ_QTY                OSSemQty;                   \/* Number of semaphores created               *\/$/;"	v
+OSSemSet	Software/uCOS-III/Source/os_sem.c	/^void  OSSemSet (OS_SEM      *p_sem,$/;"	f
+OSStart	Software/uCOS-III/Source/os_core.c	/^void  OSStart (OS_ERR  *p_err)$/;"	f
+OSStatReset	Software/uCOS-III/Source/os_stat.c	/^void  OSStatReset (OS_ERR  *p_err)$/;"	f
+OSStatResetFlag	Software/uCOS-III/Source/os.h	/^OS_EXT            CPU_BOOLEAN               OSStatResetFlag;            \/* Force the reset of the computed statistics *\/$/;"	v
+OSStatTaskCPUUsage	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_CPU_USAGE              OSStatTaskCPUUsage;         \/* CPU Usage in %                             *\/$/;"	v
+OSStatTaskCPUUsageInit	Software/uCOS-III/Source/os_stat.c	/^void  OSStatTaskCPUUsageInit (OS_ERR  *p_err)$/;"	f
+OSStatTaskCPUUsageMax	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_CPU_USAGE              OSStatTaskCPUUsageMax;      \/* CPU Usage in % (Peak)                      *\/$/;"	v
+OSStatTaskCtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_TICK                   OSStatTaskCtr;$/;"	v
+OSStatTaskCtrMax	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_TICK                   OSStatTaskCtrMax;$/;"	v
+OSStatTaskCtrRun	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_TICK                   OSStatTaskCtrRun;$/;"	v
+OSStatTaskRdy	Software/uCOS-III/Source/os.h	/^OS_EXT            CPU_BOOLEAN               OSStatTaskRdy;$/;"	v
+OSStatTaskTCB	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_TCB                    OSStatTaskTCB;$/;"	v
+OSStatTaskTimeMax	Software/uCOS-III/Source/os.h	/^OS_EXT            CPU_TS                    OSStatTaskTimeMax;$/;"	v
+OSTCBCurPtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_TCB                   *OSTCBCurPtr;                \/* Pointer to currently running TCB           *\/$/;"	v
+OSTCBHighRdyPtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_TCB                   *OSTCBHighRdyPtr;            \/* Pointer to highest priority  TCB           *\/$/;"	v
+OSTaskChangePrio	Software/uCOS-III/Source/os_task.c	/^void  OSTaskChangePrio (OS_TCB   *p_tcb,$/;"	f
+OSTaskCreate	Software/uCOS-III/Source/os_task.c	/^void  OSTaskCreate (OS_TCB        *p_tcb,$/;"	f
+OSTaskCtxSwCtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_CTX_SW_CTR             OSTaskCtxSwCtr;             \/* Number of context switches                 *\/$/;"	v
+OSTaskDbgListPtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_TCB                   *OSTaskDbgListPtr;$/;"	v
+OSTaskDel	Software/uCOS-III/Source/os_task.c	/^void  OSTaskDel (OS_TCB  *p_tcb,$/;"	f
+OSTaskQFlush	Software/uCOS-III/Source/os_task.c	/^OS_MSG_QTY  OSTaskQFlush (OS_TCB  *p_tcb,$/;"	f
+OSTaskQPend	Software/uCOS-III/Source/os_task.c	/^void  *OSTaskQPend (OS_TICK       timeout,$/;"	f
+OSTaskQPendAbort	Software/uCOS-III/Source/os_task.c	/^CPU_BOOLEAN  OSTaskQPendAbort (OS_TCB  *p_tcb,$/;"	f
+OSTaskQPost	Software/uCOS-III/Source/os_task.c	/^void  OSTaskQPost (OS_TCB       *p_tcb,$/;"	f
+OSTaskQty	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_OBJ_QTY                OSTaskQty;                  \/* Number of tasks created                    *\/$/;"	v
+OSTaskRegGet	Software/uCOS-III/Source/os_task.c	/^OS_REG  OSTaskRegGet (OS_TCB     *p_tcb,$/;"	f
+OSTaskRegGetID	Software/uCOS-III/Source/os_task.c	/^OS_REG_ID  OSTaskRegGetID (OS_ERR  *p_err)$/;"	f
+OSTaskRegNextAvailID	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_REG_ID                 OSTaskRegNextAvailID;       \/* Next available Task Register ID            *\/$/;"	v
+OSTaskRegSet	Software/uCOS-III/Source/os_task.c	/^void  OSTaskRegSet (OS_TCB     *p_tcb,$/;"	f
+OSTaskResume	Software/uCOS-III/Source/os_task.c	/^void  OSTaskResume (OS_TCB  *p_tcb,$/;"	f
+OSTaskSemPend	Software/uCOS-III/Source/os_task.c	/^OS_SEM_CTR  OSTaskSemPend (OS_TICK   timeout,$/;"	f
+OSTaskSemPendAbort	Software/uCOS-III/Source/os_task.c	/^CPU_BOOLEAN  OSTaskSemPendAbort (OS_TCB  *p_tcb,$/;"	f
+OSTaskSemPost	Software/uCOS-III/Source/os_task.c	/^OS_SEM_CTR  OSTaskSemPost (OS_TCB  *p_tcb,$/;"	f
+OSTaskSemSet	Software/uCOS-III/Source/os_task.c	/^OS_SEM_CTR  OSTaskSemSet (OS_TCB      *p_tcb,$/;"	f
+OSTaskStkChk	Software/uCOS-III/Source/os_task.c	/^void  OSTaskStkChk (OS_TCB        *p_tcb,$/;"	f
+OSTaskSuspend	Software/uCOS-III/Source/os_task.c	/^void   OSTaskSuspend (OS_TCB  *p_tcb,$/;"	f
+OSTaskTimeQuantaSet	Software/uCOS-III/Source/os_task.c	/^void  OSTaskTimeQuantaSet (OS_TCB   *p_tcb,$/;"	f
+OSTickCtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_TICK                   OSTickCtr;                  \/* Cnts the #ticks since startup or last set  *\/$/;"	v
+OSTickTaskTCB	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_TCB                    OSTickTaskTCB;$/;"	v
+OSTickTaskTimeMax	Software/uCOS-III/Source/os.h	/^OS_EXT            CPU_TS                    OSTickTaskTimeMax;$/;"	v
+OSTimeDly	Software/uCOS-III/Source/os_time.c	/^void  OSTimeDly (OS_TICK   dly,$/;"	f
+OSTimeDlyHMSM	Software/uCOS-III/Source/os_time.c	/^void  OSTimeDlyHMSM (CPU_INT16U   hours,$/;"	f
+OSTimeDlyResume	Software/uCOS-III/Source/os_time.c	/^void  OSTimeDlyResume (OS_TCB  *p_tcb,$/;"	f
+OSTimeGet	Software/uCOS-III/Source/os_time.c	/^OS_TICK  OSTimeGet (OS_ERR  *p_err)$/;"	f
+OSTimeSet	Software/uCOS-III/Source/os_time.c	/^void  OSTimeSet (OS_TICK   ticks,$/;"	f
+OSTimeTick	Software/uCOS-III/Source/os_time.c	/^void  OSTimeTick (void)$/;"	f
+OSTmrCreate	Software/uCOS-III/Source/os_tmr.c	/^void  OSTmrCreate (OS_TMR               *p_tmr,$/;"	f
+OSTmrDbgListPtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_TMR                   *OSTmrDbgListPtr;$/;"	v
+OSTmrDel	Software/uCOS-III/Source/os_tmr.c	/^CPU_BOOLEAN  OSTmrDel (OS_TMR  *p_tmr,$/;"	f
+OSTmrQty	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_OBJ_QTY                OSTmrQty;                   \/* Number of timers created                   *\/$/;"	v
+OSTmrRemainGet	Software/uCOS-III/Source/os_tmr.c	/^OS_TICK  OSTmrRemainGet (OS_TMR  *p_tmr,$/;"	f
+OSTmrStart	Software/uCOS-III/Source/os_tmr.c	/^CPU_BOOLEAN  OSTmrStart (OS_TMR  *p_tmr,$/;"	f
+OSTmrStateGet	Software/uCOS-III/Source/os_tmr.c	/^OS_STATE  OSTmrStateGet (OS_TMR  *p_tmr,$/;"	f
+OSTmrStop	Software/uCOS-III/Source/os_tmr.c	/^CPU_BOOLEAN  OSTmrStop (OS_TMR  *p_tmr,$/;"	f
+OSTmrTaskTCB	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_TCB                    OSTmrTaskTCB;               \/* TCB of timer task                          *\/$/;"	v
+OSTmrTaskTimeMax	Software/uCOS-III/Source/os.h	/^OS_EXT            CPU_TS                    OSTmrTaskTimeMax;$/;"	v
+OSTmrTickCtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_TICK                   OSTmrTickCtr;               \/* Current time for the timers                *\/$/;"	v
+OSTmrUpdateCnt	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_CTR                    OSTmrUpdateCnt;             \/* Counter for updating timers                *\/$/;"	v
+OSTmrUpdateCtr	Software/uCOS-III/Source/os.h	/^OS_EXT            OS_CTR                    OSTmrUpdateCtr;$/;"	v
+OSVersion	Software/uCOS-III/Source/os_core.c	/^CPU_INT16U  OSVersion (OS_ERR  *p_err)$/;"	f
+OS_APP_HOOKS_H	Software/uCOS-III/Cfg/Template/os_app_hooks.h	34;"	d
+OS_APP_HOOKS_H_EXT	Software/uCOS-III/Cfg/Template/os_app_hooks.h	38;"	d
+OS_APP_HOOKS_H_EXT	Software/uCOS-III/Cfg/Template/os_app_hooks.h	40;"	d
+OS_APP_HOOK_TCB	Software/uCOS-III/Source/os.h	/^typedef  void                      (*OS_APP_HOOK_TCB)(OS_TCB *p_tcb);$/;"	t
+OS_APP_HOOK_VOID	Software/uCOS-III/Source/os.h	/^typedef  void                      (*OS_APP_HOOK_VOID)(void);$/;"	t
+OS_AppIdleTaskHookPtr	Software/uCOS-III/Source/os.h	/^OS_EXT           OS_APP_HOOK_VOID           OS_AppIdleTaskHookPtr;$/;"	v
+OS_AppStatTaskHookPtr	Software/uCOS-III/Source/os.h	/^OS_EXT           OS_APP_HOOK_VOID           OS_AppStatTaskHookPtr;$/;"	v
+OS_AppTaskCreateHookPtr	Software/uCOS-III/Source/os.h	/^OS_EXT           OS_APP_HOOK_TCB            OS_AppTaskCreateHookPtr;    \/* Application hooks                          *\/$/;"	v
+OS_AppTaskDelHookPtr	Software/uCOS-III/Source/os.h	/^OS_EXT           OS_APP_HOOK_TCB            OS_AppTaskDelHookPtr;$/;"	v
+OS_AppTaskReturnHookPtr	Software/uCOS-III/Source/os.h	/^OS_EXT           OS_APP_HOOK_TCB            OS_AppTaskReturnHookPtr;$/;"	v
+OS_AppTaskSwHookPtr	Software/uCOS-III/Source/os.h	/^OS_EXT           OS_APP_HOOK_VOID           OS_AppTaskSwHookPtr;$/;"	v
+OS_AppTimeTickHookPtr	Software/uCOS-III/Source/os.h	/^OS_EXT           OS_APP_HOOK_VOID           OS_AppTimeTickHookPtr;$/;"	v
+OS_CFG_APP_H	Software/uCOS-III/Cfg/Template/os_cfg_app.h	34;"	d
+OS_CFG_APP_HOOKS_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	38;"	d
+OS_CFG_ARG_CHK_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	39;"	d
+OS_CFG_CALLED_FROM_ISR_CHK_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	40;"	d
+OS_CFG_DBG_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	41;"	d
+OS_CFG_FLAG_DEL_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	57;"	d
+OS_CFG_FLAG_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	56;"	d
+OS_CFG_FLAG_MODE_CLR_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	58;"	d
+OS_CFG_FLAG_PEND_ABORT_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	59;"	d
+OS_CFG_H	Software/uCOS-III/Cfg/Template/os_cfg.h	34;"	d
+OS_CFG_IDLE_TASK_STK_LIMIT	Software/uCOS-III/Source/os_cfg_app.c	43;"	d	file:
+OS_CFG_IDLE_TASK_STK_SIZE	Software/uCOS-III/Cfg/Template/os_cfg_app.h	49;"	d
+OS_CFG_INT_Q_SIZE	Software/uCOS-III/Cfg/Template/os_cfg_app.h	53;"	d
+OS_CFG_INT_Q_TASK_STK_LIMIT	Software/uCOS-III/Source/os_cfg_app.c	44;"	d	file:
+OS_CFG_INT_Q_TASK_STK_SIZE	Software/uCOS-III/Cfg/Template/os_cfg_app.h	54;"	d
+OS_CFG_ISR_POST_DEFERRED_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	42;"	d
+OS_CFG_ISR_STK_SIZE	Software/uCOS-III/Cfg/Template/os_cfg_app.h	44;"	d
+OS_CFG_MEM_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	63;"	d
+OS_CFG_MSG_POOL_SIZE	Software/uCOS-III/Cfg/Template/os_cfg_app.h	43;"	d
+OS_CFG_MUTEX_DEL_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	68;"	d
+OS_CFG_MUTEX_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	67;"	d
+OS_CFG_MUTEX_PEND_ABORT_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	69;"	d
+OS_CFG_OBJ_TYPE_CHK_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	43;"	d
+OS_CFG_PEND_MULTI_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	46;"	d
+OS_CFG_PRIO_MAX	Software/uCOS-III/Cfg/Template/os_cfg.h	48;"	d
+OS_CFG_Q_DEL_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	74;"	d
+OS_CFG_Q_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	73;"	d
+OS_CFG_Q_FLUSH_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	75;"	d
+OS_CFG_Q_PEND_ABORT_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	76;"	d
+OS_CFG_SCHED_LOCK_TIME_MEAS_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	50;"	d
+OS_CFG_SCHED_ROUND_ROBIN_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	51;"	d
+OS_CFG_SEM_DEL_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	81;"	d
+OS_CFG_SEM_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	80;"	d
+OS_CFG_SEM_PEND_ABORT_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	82;"	d
+OS_CFG_SEM_SET_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	83;"	d
+OS_CFG_STAT_TASK_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	87;"	d
+OS_CFG_STAT_TASK_PRIO	Software/uCOS-III/Cfg/Template/os_cfg_app.h	58;"	d
+OS_CFG_STAT_TASK_RATE_HZ	Software/uCOS-III/Cfg/Template/os_cfg_app.h	59;"	d
+OS_CFG_STAT_TASK_STK_CHK_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	88;"	d
+OS_CFG_STAT_TASK_STK_LIMIT	Software/uCOS-III/Source/os_cfg_app.c	45;"	d	file:
+OS_CFG_STAT_TASK_STK_SIZE	Software/uCOS-III/Cfg/Template/os_cfg_app.h	60;"	d
+OS_CFG_STK_SIZE_MIN	Software/uCOS-III/Cfg/Template/os_cfg.h	52;"	d
+OS_CFG_TASK_CHANGE_PRIO_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	90;"	d
+OS_CFG_TASK_DEL_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	91;"	d
+OS_CFG_TASK_PROFILE_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	94;"	d
+OS_CFG_TASK_Q_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	92;"	d
+OS_CFG_TASK_Q_PEND_ABORT_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	93;"	d
+OS_CFG_TASK_REG_TBL_SIZE	Software/uCOS-III/Cfg/Template/os_cfg.h	95;"	d
+OS_CFG_TASK_SEM_PEND_ABORT_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	96;"	d
+OS_CFG_TASK_STK_LIMIT_PCT_EMPTY	Software/uCOS-III/Cfg/Template/os_cfg_app.h	45;"	d
+OS_CFG_TASK_SUSPEND_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	97;"	d
+OS_CFG_TICK_RATE_HZ	Software/uCOS-III/Cfg/Template/os_cfg_app.h	64;"	d
+OS_CFG_TICK_TASK_PRIO	Software/uCOS-III/Cfg/Template/os_cfg_app.h	65;"	d
+OS_CFG_TICK_TASK_STK_LIMIT	Software/uCOS-III/Source/os_cfg_app.c	46;"	d	file:
+OS_CFG_TICK_TASK_STK_SIZE	Software/uCOS-III/Cfg/Template/os_cfg_app.h	66;"	d
+OS_CFG_TICK_WHEEL_SIZE	Software/uCOS-III/Cfg/Template/os_cfg_app.h	67;"	d
+OS_CFG_TIME_DLY_HMSM_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	101;"	d
+OS_CFG_TIME_DLY_RESUME_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	102;"	d
+OS_CFG_TLS_TBL_SIZE	Software/uCOS-III/Cfg/Template/os_cfg.h	106;"	d
+OS_CFG_TMR_DEL_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	111;"	d
+OS_CFG_TMR_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	110;"	d
+OS_CFG_TMR_TASK_PRIO	Software/uCOS-III/Cfg/Template/os_cfg_app.h	71;"	d
+OS_CFG_TMR_TASK_RATE_HZ	Software/uCOS-III/Cfg/Template/os_cfg_app.h	72;"	d
+OS_CFG_TMR_TASK_STK_LIMIT	Software/uCOS-III/Source/os_cfg_app.c	47;"	d	file:
+OS_CFG_TMR_TASK_STK_SIZE	Software/uCOS-III/Cfg/Template/os_cfg_app.h	73;"	d
+OS_CFG_TMR_WHEEL_SIZE	Software/uCOS-III/Cfg/Template/os_cfg_app.h	74;"	d
+OS_CFG_TS_EN	Software/uCOS-III/Cfg/Template/os_cfg.h	44;"	d
+OS_CPU_USAGE	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT16U      OS_CPU_USAGE;                \/* CPU Usage 0..10000                                  <16>\/32 *\/$/;"	t
+OS_CRITICAL_ENTER	Software/uCOS-III/Source/os.h	141;"	d
+OS_CRITICAL_ENTER	Software/uCOS-III/Source/os.h	89;"	d
+OS_CRITICAL_ENTER_CPU_CRITICAL_EXIT	Software/uCOS-III/Source/os.h	143;"	d
+OS_CRITICAL_ENTER_CPU_CRITICAL_EXIT	Software/uCOS-III/Source/os.h	99;"	d
+OS_CRITICAL_EXIT	Software/uCOS-III/Source/os.h	110;"	d
+OS_CRITICAL_EXIT	Software/uCOS-III/Source/os.h	145;"	d
+OS_CRITICAL_EXIT_NO_SCHED	Software/uCOS-III/Source/os.h	127;"	d
+OS_CRITICAL_EXIT_NO_SCHED	Software/uCOS-III/Source/os.h	147;"	d
+OS_CTR	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT32U      OS_CTR;                      \/* Counter,                                                 32 *\/$/;"	t
+OS_CTX_SW_CTR	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT32U      OS_CTX_SW_CTR;               \/* Counter of context switches,                             32 *\/$/;"	t
+OS_CYCLES	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT32U      OS_CYCLES;                   \/* CPU clock cycles,                                   <32>\/64 *\/$/;"	t
+OS_Dbg_Init	Software/uCOS-III/Source/os_dbg.c	/^void  OS_Dbg_Init (void)$/;"	f
+OS_ERR	Software/uCOS-III/Source/os.h	/^} OS_ERR;$/;"	t	typeref:enum:os_err
+OS_ERR_A	Software/uCOS-III/Source/os.h	/^    OS_ERR_A                         = 10000u,$/;"	e	enum:os_err
+OS_ERR_ACCEPT_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_ACCEPT_ISR                = 10001u,$/;"	e	enum:os_err
+OS_ERR_B	Software/uCOS-III/Source/os.h	/^    OS_ERR_B                         = 11000u,$/;"	e	enum:os_err
+OS_ERR_C	Software/uCOS-III/Source/os.h	/^    OS_ERR_C                         = 12000u,$/;"	e	enum:os_err
+OS_ERR_CREATE_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_CREATE_ISR                = 12001u,$/;"	e	enum:os_err
+OS_ERR_D	Software/uCOS-III/Source/os.h	/^    OS_ERR_D                         = 13000u,$/;"	e	enum:os_err
+OS_ERR_DEL_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_DEL_ISR                   = 13001u,$/;"	e	enum:os_err
+OS_ERR_E	Software/uCOS-III/Source/os.h	/^    OS_ERR_E                         = 14000u,$/;"	e	enum:os_err
+OS_ERR_F	Software/uCOS-III/Source/os.h	/^    OS_ERR_F                         = 15000u,$/;"	e	enum:os_err
+OS_ERR_FATAL_RETURN	Software/uCOS-III/Source/os.h	/^    OS_ERR_FATAL_RETURN              = 15001u,$/;"	e	enum:os_err
+OS_ERR_FLAG_GRP_DEPLETED	Software/uCOS-III/Source/os.h	/^    OS_ERR_FLAG_GRP_DEPLETED         = 15101u,$/;"	e	enum:os_err
+OS_ERR_FLAG_NOT_RDY	Software/uCOS-III/Source/os.h	/^    OS_ERR_FLAG_NOT_RDY              = 15102u,$/;"	e	enum:os_err
+OS_ERR_FLAG_PEND_OPT	Software/uCOS-III/Source/os.h	/^    OS_ERR_FLAG_PEND_OPT             = 15103u,$/;"	e	enum:os_err
+OS_ERR_FLUSH_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_FLUSH_ISR                 = 15104u,$/;"	e	enum:os_err
+OS_ERR_G	Software/uCOS-III/Source/os.h	/^    OS_ERR_G                         = 16000u,$/;"	e	enum:os_err
+OS_ERR_H	Software/uCOS-III/Source/os.h	/^    OS_ERR_H                         = 17000u,$/;"	e	enum:os_err
+OS_ERR_I	Software/uCOS-III/Source/os.h	/^    OS_ERR_I                         = 18000u,$/;"	e	enum:os_err
+OS_ERR_ILLEGAL_CREATE_RUN_TIME	Software/uCOS-III/Source/os.h	/^    OS_ERR_ILLEGAL_CREATE_RUN_TIME   = 18001u,$/;"	e	enum:os_err
+OS_ERR_INT_Q	Software/uCOS-III/Source/os.h	/^    OS_ERR_INT_Q                     = 18002u,$/;"	e	enum:os_err
+OS_ERR_INT_Q_FULL	Software/uCOS-III/Source/os.h	/^    OS_ERR_INT_Q_FULL                = 18003u,$/;"	e	enum:os_err
+OS_ERR_INT_Q_SIZE	Software/uCOS-III/Source/os.h	/^    OS_ERR_INT_Q_SIZE                = 18004u,$/;"	e	enum:os_err
+OS_ERR_INT_Q_STK_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_INT_Q_STK_INVALID         = 18005u,$/;"	e	enum:os_err
+OS_ERR_INT_Q_STK_SIZE_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_INT_Q_STK_SIZE_INVALID    = 18006u,$/;"	e	enum:os_err
+OS_ERR_J	Software/uCOS-III/Source/os.h	/^    OS_ERR_J                         = 19000u,$/;"	e	enum:os_err
+OS_ERR_K	Software/uCOS-III/Source/os.h	/^    OS_ERR_K                         = 20000u,$/;"	e	enum:os_err
+OS_ERR_L	Software/uCOS-III/Source/os.h	/^    OS_ERR_L                         = 21000u,$/;"	e	enum:os_err
+OS_ERR_LOCK_NESTING_OVF	Software/uCOS-III/Source/os.h	/^    OS_ERR_LOCK_NESTING_OVF          = 21001u,$/;"	e	enum:os_err
+OS_ERR_M	Software/uCOS-III/Source/os.h	/^    OS_ERR_M                         = 22000u,$/;"	e	enum:os_err
+OS_ERR_MEM_CREATE_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_MEM_CREATE_ISR            = 22201u,$/;"	e	enum:os_err
+OS_ERR_MEM_FULL	Software/uCOS-III/Source/os.h	/^    OS_ERR_MEM_FULL                  = 22202u,$/;"	e	enum:os_err
+OS_ERR_MEM_INVALID_BLKS	Software/uCOS-III/Source/os.h	/^    OS_ERR_MEM_INVALID_BLKS          = 22204u,$/;"	e	enum:os_err
+OS_ERR_MEM_INVALID_PART	Software/uCOS-III/Source/os.h	/^    OS_ERR_MEM_INVALID_PART          = 22205u,$/;"	e	enum:os_err
+OS_ERR_MEM_INVALID_P_ADDR	Software/uCOS-III/Source/os.h	/^    OS_ERR_MEM_INVALID_P_ADDR        = 22203u,$/;"	e	enum:os_err
+OS_ERR_MEM_INVALID_P_BLK	Software/uCOS-III/Source/os.h	/^    OS_ERR_MEM_INVALID_P_BLK         = 22206u,$/;"	e	enum:os_err
+OS_ERR_MEM_INVALID_P_DATA	Software/uCOS-III/Source/os.h	/^    OS_ERR_MEM_INVALID_P_DATA        = 22208u,$/;"	e	enum:os_err
+OS_ERR_MEM_INVALID_P_MEM	Software/uCOS-III/Source/os.h	/^    OS_ERR_MEM_INVALID_P_MEM         = 22207u,$/;"	e	enum:os_err
+OS_ERR_MEM_INVALID_SIZE	Software/uCOS-III/Source/os.h	/^    OS_ERR_MEM_INVALID_SIZE          = 22209u,$/;"	e	enum:os_err
+OS_ERR_MEM_NO_FREE_BLKS	Software/uCOS-III/Source/os.h	/^    OS_ERR_MEM_NO_FREE_BLKS          = 22210u,$/;"	e	enum:os_err
+OS_ERR_MSG_POOL_EMPTY	Software/uCOS-III/Source/os.h	/^    OS_ERR_MSG_POOL_EMPTY            = 22301u,$/;"	e	enum:os_err
+OS_ERR_MSG_POOL_NULL_PTR	Software/uCOS-III/Source/os.h	/^    OS_ERR_MSG_POOL_NULL_PTR         = 22302u,$/;"	e	enum:os_err
+OS_ERR_MUTEX_NESTING	Software/uCOS-III/Source/os.h	/^    OS_ERR_MUTEX_NESTING             = 22403u,$/;"	e	enum:os_err
+OS_ERR_MUTEX_NOT_OWNER	Software/uCOS-III/Source/os.h	/^    OS_ERR_MUTEX_NOT_OWNER           = 22401u,$/;"	e	enum:os_err
+OS_ERR_MUTEX_OWNER	Software/uCOS-III/Source/os.h	/^    OS_ERR_MUTEX_OWNER               = 22402u,$/;"	e	enum:os_err
+OS_ERR_N	Software/uCOS-III/Source/os.h	/^    OS_ERR_N                         = 23000u,$/;"	e	enum:os_err
+OS_ERR_NAME	Software/uCOS-III/Source/os.h	/^    OS_ERR_NAME                      = 23001u,$/;"	e	enum:os_err
+OS_ERR_NONE	Software/uCOS-III/Source/os.h	/^    OS_ERR_NONE                      =     0u,$/;"	e	enum:os_err
+OS_ERR_NO_MORE_ID_AVAIL	Software/uCOS-III/Source/os.h	/^    OS_ERR_NO_MORE_ID_AVAIL          = 23002u,$/;"	e	enum:os_err
+OS_ERR_O	Software/uCOS-III/Source/os.h	/^    OS_ERR_O                         = 24000u,$/;"	e	enum:os_err
+OS_ERR_OBJ_CREATED	Software/uCOS-III/Source/os.h	/^    OS_ERR_OBJ_CREATED               = 24001u,$/;"	e	enum:os_err
+OS_ERR_OBJ_DEL	Software/uCOS-III/Source/os.h	/^    OS_ERR_OBJ_DEL                   = 24002u,$/;"	e	enum:os_err
+OS_ERR_OBJ_PTR_NULL	Software/uCOS-III/Source/os.h	/^    OS_ERR_OBJ_PTR_NULL              = 24003u,$/;"	e	enum:os_err
+OS_ERR_OBJ_TYPE	Software/uCOS-III/Source/os.h	/^    OS_ERR_OBJ_TYPE                  = 24004u,$/;"	e	enum:os_err
+OS_ERR_OPT_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_OPT_INVALID               = 24101u,$/;"	e	enum:os_err
+OS_ERR_OS_NOT_RUNNING	Software/uCOS-III/Source/os.h	/^    OS_ERR_OS_NOT_RUNNING            = 24201u,$/;"	e	enum:os_err
+OS_ERR_OS_RUNNING	Software/uCOS-III/Source/os.h	/^    OS_ERR_OS_RUNNING                = 24202u,$/;"	e	enum:os_err
+OS_ERR_P	Software/uCOS-III/Source/os.h	/^    OS_ERR_P                         = 25000u,$/;"	e	enum:os_err
+OS_ERR_PEND_ABORT	Software/uCOS-III/Source/os.h	/^    OS_ERR_PEND_ABORT                = 25001u,$/;"	e	enum:os_err
+OS_ERR_PEND_ABORT_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_PEND_ABORT_ISR            = 25002u,$/;"	e	enum:os_err
+OS_ERR_PEND_ABORT_NONE	Software/uCOS-III/Source/os.h	/^    OS_ERR_PEND_ABORT_NONE           = 25003u,$/;"	e	enum:os_err
+OS_ERR_PEND_ABORT_SELF	Software/uCOS-III/Source/os.h	/^    OS_ERR_PEND_ABORT_SELF           = 25004u,$/;"	e	enum:os_err
+OS_ERR_PEND_DEL	Software/uCOS-III/Source/os.h	/^    OS_ERR_PEND_DEL                  = 25005u,$/;"	e	enum:os_err
+OS_ERR_PEND_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_PEND_ISR                  = 25006u,$/;"	e	enum:os_err
+OS_ERR_PEND_LOCKED	Software/uCOS-III/Source/os.h	/^    OS_ERR_PEND_LOCKED               = 25007u,$/;"	e	enum:os_err
+OS_ERR_PEND_WOULD_BLOCK	Software/uCOS-III/Source/os.h	/^    OS_ERR_PEND_WOULD_BLOCK          = 25008u,$/;"	e	enum:os_err
+OS_ERR_POST_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_POST_ISR                  = 25102u,$/;"	e	enum:os_err
+OS_ERR_POST_NULL_PTR	Software/uCOS-III/Source/os.h	/^    OS_ERR_POST_NULL_PTR             = 25101u,$/;"	e	enum:os_err
+OS_ERR_PRIO	Software/uCOS-III/Source/os.h	/^    OS_ERR_PRIO                      = 25202u,$/;"	e	enum:os_err
+OS_ERR_PRIO_EXIST	Software/uCOS-III/Source/os.h	/^    OS_ERR_PRIO_EXIST                = 25201u,$/;"	e	enum:os_err
+OS_ERR_PRIO_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_PRIO_INVALID              = 25203u,$/;"	e	enum:os_err
+OS_ERR_PTR_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_PTR_INVALID               = 25301u,$/;"	e	enum:os_err
+OS_ERR_Q	Software/uCOS-III/Source/os.h	/^    OS_ERR_Q                         = 26000u,$/;"	e	enum:os_err
+OS_ERR_Q_EMPTY	Software/uCOS-III/Source/os.h	/^    OS_ERR_Q_EMPTY                   = 26002u,$/;"	e	enum:os_err
+OS_ERR_Q_FULL	Software/uCOS-III/Source/os.h	/^    OS_ERR_Q_FULL                    = 26001u,$/;"	e	enum:os_err
+OS_ERR_Q_MAX	Software/uCOS-III/Source/os.h	/^    OS_ERR_Q_MAX                     = 26003u,$/;"	e	enum:os_err
+OS_ERR_Q_SIZE	Software/uCOS-III/Source/os.h	/^    OS_ERR_Q_SIZE                    = 26004u,$/;"	e	enum:os_err
+OS_ERR_R	Software/uCOS-III/Source/os.h	/^    OS_ERR_R                         = 27000u,$/;"	e	enum:os_err
+OS_ERR_REG_ID_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_REG_ID_INVALID            = 27001u,$/;"	e	enum:os_err
+OS_ERR_ROUND_ROBIN_1	Software/uCOS-III/Source/os.h	/^    OS_ERR_ROUND_ROBIN_1             = 27002u,$/;"	e	enum:os_err
+OS_ERR_ROUND_ROBIN_DISABLED	Software/uCOS-III/Source/os.h	/^    OS_ERR_ROUND_ROBIN_DISABLED      = 27003u,$/;"	e	enum:os_err
+OS_ERR_S	Software/uCOS-III/Source/os.h	/^    OS_ERR_S                         = 28000u,$/;"	e	enum:os_err
+OS_ERR_SCHED_INVALID_TIME_SLICE	Software/uCOS-III/Source/os.h	/^    OS_ERR_SCHED_INVALID_TIME_SLICE  = 28001u,$/;"	e	enum:os_err
+OS_ERR_SCHED_LOCKED	Software/uCOS-III/Source/os.h	/^    OS_ERR_SCHED_LOCKED              = 28003u,$/;"	e	enum:os_err
+OS_ERR_SCHED_LOCK_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_SCHED_LOCK_ISR            = 28002u,$/;"	e	enum:os_err
+OS_ERR_SCHED_NOT_LOCKED	Software/uCOS-III/Source/os.h	/^    OS_ERR_SCHED_NOT_LOCKED          = 28004u,$/;"	e	enum:os_err
+OS_ERR_SCHED_UNLOCK_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_SCHED_UNLOCK_ISR          = 28005u,$/;"	e	enum:os_err
+OS_ERR_SEM_OVF	Software/uCOS-III/Source/os.h	/^    OS_ERR_SEM_OVF                   = 28101u,$/;"	e	enum:os_err
+OS_ERR_SET_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_SET_ISR                   = 28102u,$/;"	e	enum:os_err
+OS_ERR_STATE_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_STATE_INVALID             = 28205u,$/;"	e	enum:os_err
+OS_ERR_STATUS_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_STATUS_INVALID            = 28206u,$/;"	e	enum:os_err
+OS_ERR_STAT_PRIO_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_STAT_PRIO_INVALID         = 28202u,$/;"	e	enum:os_err
+OS_ERR_STAT_RESET_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_STAT_RESET_ISR            = 28201u,$/;"	e	enum:os_err
+OS_ERR_STAT_STK_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_STAT_STK_INVALID          = 28203u,$/;"	e	enum:os_err
+OS_ERR_STAT_STK_SIZE_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_STAT_STK_SIZE_INVALID     = 28204u,$/;"	e	enum:os_err
+OS_ERR_STK_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_STK_INVALID               = 28207u,$/;"	e	enum:os_err
+OS_ERR_STK_LIMIT_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_STK_LIMIT_INVALID         = 28209u,$/;"	e	enum:os_err
+OS_ERR_STK_SIZE_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_STK_SIZE_INVALID          = 28208u,$/;"	e	enum:os_err
+OS_ERR_T	Software/uCOS-III/Source/os.h	/^    OS_ERR_T                         = 29000u,$/;"	e	enum:os_err
+OS_ERR_TASK_CHANGE_PRIO_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_CHANGE_PRIO_ISR      = 29001u,$/;"	e	enum:os_err
+OS_ERR_TASK_CREATE_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_CREATE_ISR           = 29002u,$/;"	e	enum:os_err
+OS_ERR_TASK_DEL	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_DEL                  = 29003u,$/;"	e	enum:os_err
+OS_ERR_TASK_DEL_IDLE	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_DEL_IDLE             = 29004u,$/;"	e	enum:os_err
+OS_ERR_TASK_DEL_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_DEL_INVALID          = 29005u,$/;"	e	enum:os_err
+OS_ERR_TASK_DEL_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_DEL_ISR              = 29006u,$/;"	e	enum:os_err
+OS_ERR_TASK_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_INVALID              = 29007u,$/;"	e	enum:os_err
+OS_ERR_TASK_NOT_DLY	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_NOT_DLY              = 29009u,$/;"	e	enum:os_err
+OS_ERR_TASK_NOT_EXIST	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_NOT_EXIST            = 29010u,$/;"	e	enum:os_err
+OS_ERR_TASK_NOT_SUSPENDED	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_NOT_SUSPENDED        = 29011u,$/;"	e	enum:os_err
+OS_ERR_TASK_NO_MORE_TCB	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_NO_MORE_TCB          = 29008u,$/;"	e	enum:os_err
+OS_ERR_TASK_OPT	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_OPT                  = 29012u,$/;"	e	enum:os_err
+OS_ERR_TASK_RESUME_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_RESUME_ISR           = 29013u,$/;"	e	enum:os_err
+OS_ERR_TASK_RESUME_PRIO	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_RESUME_PRIO          = 29014u,$/;"	e	enum:os_err
+OS_ERR_TASK_RESUME_SELF	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_RESUME_SELF          = 29015u,$/;"	e	enum:os_err
+OS_ERR_TASK_RUNNING	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_RUNNING              = 29016u,$/;"	e	enum:os_err
+OS_ERR_TASK_STK_CHK_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_STK_CHK_ISR          = 29017u,$/;"	e	enum:os_err
+OS_ERR_TASK_SUSPENDED	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_SUSPENDED            = 29018u,$/;"	e	enum:os_err
+OS_ERR_TASK_SUSPEND_IDLE	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_SUSPEND_IDLE         = 29019u,$/;"	e	enum:os_err
+OS_ERR_TASK_SUSPEND_INT_HANDLER	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_SUSPEND_INT_HANDLER  = 29020u,$/;"	e	enum:os_err
+OS_ERR_TASK_SUSPEND_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_SUSPEND_ISR          = 29021u,$/;"	e	enum:os_err
+OS_ERR_TASK_SUSPEND_PRIO	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_SUSPEND_PRIO         = 29022u,$/;"	e	enum:os_err
+OS_ERR_TASK_WAITING	Software/uCOS-III/Source/os.h	/^    OS_ERR_TASK_WAITING              = 29023u,$/;"	e	enum:os_err
+OS_ERR_TCB_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_TCB_INVALID               = 29101u,$/;"	e	enum:os_err
+OS_ERR_TICK_PRIO_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_TICK_PRIO_INVALID         = 29201u,$/;"	e	enum:os_err
+OS_ERR_TICK_STK_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_TICK_STK_INVALID          = 29202u,$/;"	e	enum:os_err
+OS_ERR_TICK_STK_SIZE_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_TICK_STK_SIZE_INVALID     = 29203u,$/;"	e	enum:os_err
+OS_ERR_TICK_WHEEL_SIZE	Software/uCOS-III/Source/os.h	/^    OS_ERR_TICK_WHEEL_SIZE           = 29204u,$/;"	e	enum:os_err
+OS_ERR_TIMEOUT	Software/uCOS-III/Source/os.h	/^    OS_ERR_TIMEOUT                   = 29401u,$/;"	e	enum:os_err
+OS_ERR_TIME_DLY_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_TIME_DLY_ISR              = 29301u,$/;"	e	enum:os_err
+OS_ERR_TIME_DLY_RESUME_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_TIME_DLY_RESUME_ISR       = 29302u,$/;"	e	enum:os_err
+OS_ERR_TIME_GET_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_TIME_GET_ISR              = 29303u,$/;"	e	enum:os_err
+OS_ERR_TIME_INVALID_HOURS	Software/uCOS-III/Source/os.h	/^    OS_ERR_TIME_INVALID_HOURS        = 29304u,$/;"	e	enum:os_err
+OS_ERR_TIME_INVALID_MILLISECONDS	Software/uCOS-III/Source/os.h	/^    OS_ERR_TIME_INVALID_MILLISECONDS = 29307u,$/;"	e	enum:os_err
+OS_ERR_TIME_INVALID_MINUTES	Software/uCOS-III/Source/os.h	/^    OS_ERR_TIME_INVALID_MINUTES      = 29305u,$/;"	e	enum:os_err
+OS_ERR_TIME_INVALID_SECONDS	Software/uCOS-III/Source/os.h	/^    OS_ERR_TIME_INVALID_SECONDS      = 29306u,$/;"	e	enum:os_err
+OS_ERR_TIME_NOT_DLY	Software/uCOS-III/Source/os.h	/^    OS_ERR_TIME_NOT_DLY              = 29308u,$/;"	e	enum:os_err
+OS_ERR_TIME_SET_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_TIME_SET_ISR              = 29309u,$/;"	e	enum:os_err
+OS_ERR_TIME_ZERO_DLY	Software/uCOS-III/Source/os.h	/^    OS_ERR_TIME_ZERO_DLY             = 29310u,$/;"	e	enum:os_err
+OS_ERR_TLS_DESTRUCT_ASSIGNED	Software/uCOS-III/Source/os.h	/^    OS_ERR_TLS_DESTRUCT_ASSIGNED     = 29124u,$/;"	e	enum:os_err
+OS_ERR_TLS_ID_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_TLS_ID_INVALID            = 29120u,$/;"	e	enum:os_err
+OS_ERR_TLS_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_TLS_ISR                   = 29121u,$/;"	e	enum:os_err
+OS_ERR_TLS_NOT_EN	Software/uCOS-III/Source/os.h	/^    OS_ERR_TLS_NOT_EN                = 29123u,$/;"	e	enum:os_err
+OS_ERR_TLS_NO_MORE_AVAIL	Software/uCOS-III/Source/os.h	/^    OS_ERR_TLS_NO_MORE_AVAIL         = 29122u,$/;"	e	enum:os_err
+OS_ERR_TMR_INACTIVE	Software/uCOS-III/Source/os.h	/^    OS_ERR_TMR_INACTIVE              = 29501u,$/;"	e	enum:os_err
+OS_ERR_TMR_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_TMR_INVALID               = 29506u,$/;"	e	enum:os_err
+OS_ERR_TMR_INVALID_DEST	Software/uCOS-III/Source/os.h	/^    OS_ERR_TMR_INVALID_DEST          = 29502u,$/;"	e	enum:os_err
+OS_ERR_TMR_INVALID_DLY	Software/uCOS-III/Source/os.h	/^    OS_ERR_TMR_INVALID_DLY           = 29503u,$/;"	e	enum:os_err
+OS_ERR_TMR_INVALID_PERIOD	Software/uCOS-III/Source/os.h	/^    OS_ERR_TMR_INVALID_PERIOD        = 29504u,$/;"	e	enum:os_err
+OS_ERR_TMR_INVALID_STATE	Software/uCOS-III/Source/os.h	/^    OS_ERR_TMR_INVALID_STATE         = 29505u,$/;"	e	enum:os_err
+OS_ERR_TMR_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_TMR_ISR                   = 29507u,$/;"	e	enum:os_err
+OS_ERR_TMR_NON_AVAIL	Software/uCOS-III/Source/os.h	/^    OS_ERR_TMR_NON_AVAIL             = 29509u,$/;"	e	enum:os_err
+OS_ERR_TMR_NO_CALLBACK	Software/uCOS-III/Source/os.h	/^    OS_ERR_TMR_NO_CALLBACK           = 29508u,$/;"	e	enum:os_err
+OS_ERR_TMR_PRIO_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_TMR_PRIO_INVALID          = 29510u,$/;"	e	enum:os_err
+OS_ERR_TMR_STK_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_TMR_STK_INVALID           = 29511u,$/;"	e	enum:os_err
+OS_ERR_TMR_STK_SIZE_INVALID	Software/uCOS-III/Source/os.h	/^    OS_ERR_TMR_STK_SIZE_INVALID      = 29512u,$/;"	e	enum:os_err
+OS_ERR_TMR_STOPPED	Software/uCOS-III/Source/os.h	/^    OS_ERR_TMR_STOPPED               = 29513u,$/;"	e	enum:os_err
+OS_ERR_U	Software/uCOS-III/Source/os.h	/^    OS_ERR_U                         = 30000u,$/;"	e	enum:os_err
+OS_ERR_V	Software/uCOS-III/Source/os.h	/^    OS_ERR_V                         = 31000u,$/;"	e	enum:os_err
+OS_ERR_W	Software/uCOS-III/Source/os.h	/^    OS_ERR_W                         = 32000u,$/;"	e	enum:os_err
+OS_ERR_X	Software/uCOS-III/Source/os.h	/^    OS_ERR_X                         = 33000u,$/;"	e	enum:os_err
+OS_ERR_Y	Software/uCOS-III/Source/os.h	/^    OS_ERR_Y                         = 34000u,$/;"	e	enum:os_err
+OS_ERR_YIELD_ISR	Software/uCOS-III/Source/os.h	/^    OS_ERR_YIELD_ISR                 = 34001u,$/;"	e	enum:os_err
+OS_ERR_Z	Software/uCOS-III/Source/os.h	/^    OS_ERR_Z                         = 35000u$/;"	e	enum:os_err
+OS_EXT	Software/uCOS-III/Source/os.h	158;"	d
+OS_EXT	Software/uCOS-III/Source/os.h	160;"	d
+OS_FLAGS	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT32U      OS_FLAGS;                    \/* Event flags,                                      8\/16\/<32> *\/$/;"	t
+OS_FLAG_GRP	Software/uCOS-III/Source/os.h	/^typedef  struct  os_flag_grp         OS_FLAG_GRP;$/;"	t	typeref:struct:os_flag_grp
+OS_FlagBlock	Software/uCOS-III/Source/os_flag.c	/^void  OS_FlagBlock (OS_PEND_DATA  *p_pend_data,$/;"	f
+OS_FlagClr	Software/uCOS-III/Source/os_flag.c	/^void  OS_FlagClr (OS_FLAG_GRP  *p_grp)$/;"	f
+OS_FlagDbgListAdd	Software/uCOS-III/Source/os_flag.c	/^void  OS_FlagDbgListAdd (OS_FLAG_GRP  *p_grp)$/;"	f
+OS_FlagDbgListRemove	Software/uCOS-III/Source/os_flag.c	/^void  OS_FlagDbgListRemove (OS_FLAG_GRP  *p_grp)$/;"	f
+OS_FlagInit	Software/uCOS-III/Source/os_flag.c	/^void  OS_FlagInit (OS_ERR  *p_err)$/;"	f
+OS_FlagPost	Software/uCOS-III/Source/os_flag.c	/^OS_FLAGS  OS_FlagPost (OS_FLAG_GRP  *p_grp,$/;"	f
+OS_FlagTaskRdy	Software/uCOS-III/Source/os_flag.c	/^void   OS_FlagTaskRdy (OS_TCB    *p_tcb,$/;"	f
+OS_GLOBALS	Software/uCOS-III/Source/os_var.c	33;"	d	file:
+OS_H	Software/uCOS-III/Source/os.h	37;"	d
+OS_IDLE_CTR	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT32U      OS_IDLE_CTR;                 \/* Holds the number of times the idle task runs,       <32>\/64 *\/$/;"	t
+OS_INT_Q	Software/uCOS-III/Source/os.h	/^typedef  struct  os_int_q            OS_INT_Q;$/;"	t	typeref:struct:os_int_q
+OS_IdleTask	Software/uCOS-III/Source/os_core.c	/^void  OS_IdleTask (void  *p_arg)$/;"	f
+OS_IdleTaskInit	Software/uCOS-III/Source/os_core.c	/^void  OS_IdleTaskInit (OS_ERR  *p_err)$/;"	f
+OS_IntQPost	Software/uCOS-III/Source/os_int.c	/^void  OS_IntQPost (OS_OBJ_TYPE   type,$/;"	f
+OS_IntQRePost	Software/uCOS-III/Source/os_int.c	/^void  OS_IntQRePost (void)$/;"	f
+OS_IntQTask	Software/uCOS-III/Source/os_int.c	/^void  OS_IntQTask (void  *p_arg)$/;"	f
+OS_IntQTaskInit	Software/uCOS-III/Source/os_int.c	/^void  OS_IntQTaskInit (OS_ERR  *p_err)$/;"	f
+OS_MEM	Software/uCOS-III/Source/os.h	/^typedef  struct  os_mem              OS_MEM;$/;"	t	typeref:struct:os_mem
+OS_MEM_QTY	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT16U      OS_MEM_QTY;                  \/* Number of memory blocks,                            <16>\/32 *\/$/;"	t
+OS_MEM_SIZE	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT16U      OS_MEM_SIZE;                 \/* Size in bytes of a memory block,                    <16>\/32 *\/$/;"	t
+OS_MSG	Software/uCOS-III/Source/os.h	/^typedef  struct  os_msg              OS_MSG;$/;"	t	typeref:struct:os_msg
+OS_MSG_EN	Software/uCOS-III/Source/os.h	166;"	d
+OS_MSG_POOL	Software/uCOS-III/Source/os.h	/^typedef  struct  os_msg_pool         OS_MSG_POOL;$/;"	t	typeref:struct:os_msg_pool
+OS_MSG_Q	Software/uCOS-III/Source/os.h	/^typedef  struct  os_msg_q            OS_MSG_Q;$/;"	t	typeref:struct:os_msg_q
+OS_MSG_QTY	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT16U      OS_MSG_QTY;                  \/* Number of OS_MSGs in the msg pool,                  <16>\/32 *\/$/;"	t
+OS_MSG_SIZE	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT16U      OS_MSG_SIZE;                 \/* Size of messages in number of bytes,                <16>\/32 *\/$/;"	t
+OS_MUTEX	Software/uCOS-III/Source/os.h	/^typedef  struct  os_mutex            OS_MUTEX;$/;"	t	typeref:struct:os_mutex
+OS_MemDbgListAdd	Software/uCOS-III/Source/os_mem.c	/^void  OS_MemDbgListAdd (OS_MEM  *p_mem)$/;"	f
+OS_MemInit	Software/uCOS-III/Source/os_mem.c	/^void  OS_MemInit (OS_ERR  *p_err)$/;"	f
+OS_MsgPoolCreate	Software/uCOS-III/Source/os_msg.c	/^void  OS_MsgPoolCreate (OS_MSG      *p_msg,$/;"	f
+OS_MsgPoolInit	Software/uCOS-III/Source/os_msg.c	/^void  OS_MsgPoolInit (OS_ERR  *p_err)$/;"	f
+OS_MsgQFreeAll	Software/uCOS-III/Source/os_msg.c	/^OS_MSG_QTY  OS_MsgQFreeAll (OS_MSG_Q  *p_msg_q)$/;"	f
+OS_MsgQGet	Software/uCOS-III/Source/os_msg.c	/^void  *OS_MsgQGet (OS_MSG_Q     *p_msg_q,$/;"	f
+OS_MsgQInit	Software/uCOS-III/Source/os_msg.c	/^void  OS_MsgQInit (OS_MSG_Q    *p_msg_q,$/;"	f
+OS_MsgQPut	Software/uCOS-III/Source/os_msg.c	/^void  OS_MsgQPut (OS_MSG_Q     *p_msg_q,$/;"	f
+OS_MutexClr	Software/uCOS-III/Source/os_mutex.c	/^void  OS_MutexClr (OS_MUTEX  *p_mutex)$/;"	f
+OS_MutexDbgListAdd	Software/uCOS-III/Source/os_mutex.c	/^void  OS_MutexDbgListAdd (OS_MUTEX  *p_mutex)$/;"	f
+OS_MutexDbgListRemove	Software/uCOS-III/Source/os_mutex.c	/^void  OS_MutexDbgListRemove (OS_MUTEX  *p_mutex)$/;"	f
+OS_MutexInit	Software/uCOS-III/Source/os_mutex.c	/^void  OS_MutexInit (OS_ERR  *p_err)$/;"	f
+OS_NESTING_CTR	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT08U      OS_NESTING_CTR;              \/* Interrupt and scheduler nesting,                  <8>\/16\/32 *\/$/;"	t
+OS_OBJ_QTY	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT16U      OS_OBJ_QTY;                  \/* Number of kernel objects counter,                   <16>\/32 *\/$/;"	t
+OS_OBJ_TYPE	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT32U      OS_OBJ_TYPE;                 \/* Special flag to determine object type,                   32 *\/$/;"	t
+OS_OBJ_TYPE_FLAG	Software/uCOS-III/Source/os.h	242;"	d
+OS_OBJ_TYPE_MEM	Software/uCOS-III/Source/os.h	243;"	d
+OS_OBJ_TYPE_MUTEX	Software/uCOS-III/Source/os.h	244;"	d
+OS_OBJ_TYPE_NONE	Software/uCOS-III/Source/os.h	241;"	d
+OS_OBJ_TYPE_Q	Software/uCOS-III/Source/os.h	245;"	d
+OS_OBJ_TYPE_SEM	Software/uCOS-III/Source/os.h	246;"	d
+OS_OBJ_TYPE_TASK_MSG	Software/uCOS-III/Source/os.h	247;"	d
+OS_OBJ_TYPE_TASK_RESUME	Software/uCOS-III/Source/os.h	248;"	d
+OS_OBJ_TYPE_TASK_SIGNAL	Software/uCOS-III/Source/os.h	249;"	d
+OS_OBJ_TYPE_TASK_SUSPEND	Software/uCOS-III/Source/os.h	250;"	d
+OS_OBJ_TYPE_TICK	Software/uCOS-III/Source/os.h	251;"	d
+OS_OBJ_TYPE_TMR	Software/uCOS-III/Source/os.h	252;"	d
+OS_OPT	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT16U      OS_OPT;                      \/* Holds function options                              <16>\/32 *\/$/;"	t
+OS_OPT_DEL_ALWAYS	Software/uCOS-III/Source/os.h	269;"	d
+OS_OPT_DEL_NO_PEND	Software/uCOS-III/Source/os.h	268;"	d
+OS_OPT_LINK_DLY	Software/uCOS-III/Source/os_tmr.c	48;"	d	file:
+OS_OPT_LINK_PERIODIC	Software/uCOS-III/Source/os_tmr.c	49;"	d	file:
+OS_OPT_NONE	Software/uCOS-III/Source/os.h	260;"	d
+OS_OPT_PEND_ABORT_1	Software/uCOS-III/Source/os.h	302;"	d
+OS_OPT_PEND_ABORT_ALL	Software/uCOS-III/Source/os.h	303;"	d
+OS_OPT_PEND_BLOCKING	Software/uCOS-III/Source/os.h	293;"	d
+OS_OPT_PEND_FLAG_CLR_ALL	Software/uCOS-III/Source/os.h	278;"	d
+OS_OPT_PEND_FLAG_CLR_AND	Software/uCOS-III/Source/os.h	279;"	d
+OS_OPT_PEND_FLAG_CLR_ANY	Software/uCOS-III/Source/os.h	281;"	d
+OS_OPT_PEND_FLAG_CLR_OR	Software/uCOS-III/Source/os.h	282;"	d
+OS_OPT_PEND_FLAG_CONSUME	Software/uCOS-III/Source/os.h	290;"	d
+OS_OPT_PEND_FLAG_MASK	Software/uCOS-III/Source/os.h	277;"	d
+OS_OPT_PEND_FLAG_SET_ALL	Software/uCOS-III/Source/os.h	284;"	d
+OS_OPT_PEND_FLAG_SET_AND	Software/uCOS-III/Source/os.h	285;"	d
+OS_OPT_PEND_FLAG_SET_ANY	Software/uCOS-III/Source/os.h	287;"	d
+OS_OPT_PEND_FLAG_SET_OR	Software/uCOS-III/Source/os.h	288;"	d
+OS_OPT_PEND_NON_BLOCKING	Software/uCOS-III/Source/os.h	294;"	d
+OS_OPT_POST_1	Software/uCOS-III/Source/os.h	319;"	d
+OS_OPT_POST_ALL	Software/uCOS-III/Source/os.h	320;"	d
+OS_OPT_POST_FIFO	Software/uCOS-III/Source/os.h	317;"	d
+OS_OPT_POST_FLAG_CLR	Software/uCOS-III/Source/os.h	315;"	d
+OS_OPT_POST_FLAG_SET	Software/uCOS-III/Source/os.h	314;"	d
+OS_OPT_POST_LIFO	Software/uCOS-III/Source/os.h	318;"	d
+OS_OPT_POST_NONE	Software/uCOS-III/Source/os.h	312;"	d
+OS_OPT_POST_NO_SCHED	Software/uCOS-III/Source/os.h	322;"	d
+OS_OPT_TASK_NONE	Software/uCOS-III/Source/os.h	330;"	d
+OS_OPT_TASK_NO_TLS	Software/uCOS-III/Source/os.h	334;"	d
+OS_OPT_TASK_SAVE_FP	Software/uCOS-III/Source/os.h	333;"	d
+OS_OPT_TASK_STK_CHK	Software/uCOS-III/Source/os.h	331;"	d
+OS_OPT_TASK_STK_CLR	Software/uCOS-III/Source/os.h	332;"	d
+OS_OPT_TIME_DLY	Software/uCOS-III/Source/os.h	342;"	d
+OS_OPT_TIME_HMSM_NON_STRICT	Software/uCOS-III/Source/os.h	348;"	d
+OS_OPT_TIME_HMSM_STRICT	Software/uCOS-III/Source/os.h	347;"	d
+OS_OPT_TIME_MASK	Software/uCOS-III/Source/os.h	350;"	d
+OS_OPT_TIME_MATCH	Software/uCOS-III/Source/os.h	344;"	d
+OS_OPT_TIME_OPTS_MASK	Software/uCOS-III/Source/os.h	355;"	d
+OS_OPT_TIME_PERIODIC	Software/uCOS-III/Source/os.h	345;"	d
+OS_OPT_TIME_TIMEOUT	Software/uCOS-III/Source/os.h	343;"	d
+OS_OPT_TMR_CALLBACK	Software/uCOS-III/Source/os.h	372;"	d
+OS_OPT_TMR_CALLBACK_ARG	Software/uCOS-III/Source/os.h	373;"	d
+OS_OPT_TMR_NONE	Software/uCOS-III/Source/os.h	367;"	d
+OS_OPT_TMR_ONE_SHOT	Software/uCOS-III/Source/os.h	369;"	d
+OS_OPT_TMR_PERIODIC	Software/uCOS-III/Source/os.h	370;"	d
+OS_PEND_DATA	Software/uCOS-III/Source/os.h	/^typedef  struct  os_pend_data        OS_PEND_DATA;$/;"	t	typeref:struct:os_pend_data
+OS_PEND_LIST	Software/uCOS-III/Source/os.h	/^typedef  struct  os_pend_list        OS_PEND_LIST;$/;"	t	typeref:struct:os_pend_list
+OS_PEND_OBJ	Software/uCOS-III/Source/os.h	/^typedef  struct  os_pend_obj         OS_PEND_OBJ;$/;"	t	typeref:struct:os_pend_obj
+OS_PRIO	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT08U      OS_PRIO;                     \/* Priority of a task,                               <8>\/16\/32 *\/$/;"	t
+OS_PRIO_INIT	Software/uCOS-III/Source/os.h	392;"	d
+OS_PRIO_TBL_SIZE	Software/uCOS-III/Source/os.h	164;"	d
+OS_Pend	Software/uCOS-III/Source/os_core.c	/^void  OS_Pend (OS_PEND_DATA  *p_pend_data,$/;"	f
+OS_PendAbort	Software/uCOS-III/Source/os_core.c	/^void  OS_PendAbort (OS_PEND_OBJ  *p_obj,$/;"	f
+OS_PendAbort1	Software/uCOS-III/Source/os_core.c	/^void  OS_PendAbort1 (OS_PEND_OBJ  *p_obj,$/;"	f
+OS_PendDataInit	Software/uCOS-III/Source/os_core.c	/^void  OS_PendDataInit (OS_TCB        *p_tcb,$/;"	f
+OS_PendDbgNameAdd	Software/uCOS-III/Source/os_core.c	/^void  OS_PendDbgNameAdd (OS_PEND_OBJ  *p_obj,$/;"	f
+OS_PendDbgNameRemove	Software/uCOS-III/Source/os_core.c	/^void  OS_PendDbgNameRemove (OS_PEND_OBJ  *p_obj,$/;"	f
+OS_PendListChangePrio	Software/uCOS-III/Source/os_core.c	/^void  OS_PendListChangePrio (OS_TCB   *p_tcb,$/;"	f
+OS_PendListInit	Software/uCOS-III/Source/os_core.c	/^void  OS_PendListInit (OS_PEND_LIST  *p_pend_list)$/;"	f
+OS_PendListInsertHead	Software/uCOS-III/Source/os_core.c	/^void  OS_PendListInsertHead (OS_PEND_LIST  *p_pend_list,$/;"	f
+OS_PendListInsertPrio	Software/uCOS-III/Source/os_core.c	/^void  OS_PendListInsertPrio (OS_PEND_LIST  *p_pend_list,$/;"	f
+OS_PendListRemove	Software/uCOS-III/Source/os_core.c	/^void  OS_PendListRemove (OS_TCB  *p_tcb)$/;"	f
+OS_PendListRemove1	Software/uCOS-III/Source/os_core.c	/^void  OS_PendListRemove1 (OS_PEND_LIST  *p_pend_list,$/;"	f
+OS_PendMultiGetRdy	Software/uCOS-III/Source/os_pend_multi.c	/^OS_OBJ_QTY  OS_PendMultiGetRdy (OS_PEND_DATA  *p_pend_data_tbl,$/;"	f
+OS_PendMultiValidate	Software/uCOS-III/Source/os_pend_multi.c	/^CPU_BOOLEAN  OS_PendMultiValidate (OS_PEND_DATA  *p_pend_data_tbl,$/;"	f
+OS_PendMultiWait	Software/uCOS-III/Source/os_pend_multi.c	/^void  OS_PendMultiWait (OS_PEND_DATA  *p_pend_data_tbl,$/;"	f
+OS_PendObjDel	Software/uCOS-III/Source/os_core.c	/^void  OS_PendObjDel (OS_PEND_OBJ  *p_obj,$/;"	f
+OS_PendObjDel1	Software/uCOS-III/Source/os_core.c	/^void  OS_PendObjDel1 (OS_PEND_OBJ  *p_obj,$/;"	f
+OS_Post	Software/uCOS-III/Source/os_core.c	/^void  OS_Post (OS_PEND_OBJ  *p_obj,$/;"	f
+OS_Post1	Software/uCOS-III/Source/os_core.c	/^void  OS_Post1 (OS_PEND_OBJ  *p_obj,$/;"	f
+OS_PrioGetHighest	Software/uCOS-III/Source/os_prio.c	/^OS_PRIO  OS_PrioGetHighest (void)$/;"	f
+OS_PrioInit	Software/uCOS-III/Source/os_prio.c	/^void  OS_PrioInit (void)$/;"	f
+OS_PrioInsert	Software/uCOS-III/Source/os_prio.c	/^void  OS_PrioInsert (OS_PRIO  prio)$/;"	f
+OS_PrioRemove	Software/uCOS-III/Source/os_prio.c	/^void  OS_PrioRemove (OS_PRIO  prio)$/;"	f
+OS_Q	Software/uCOS-III/Source/os.h	/^typedef  struct  os_q                OS_Q;$/;"	t	typeref:struct:os_q
+OS_QClr	Software/uCOS-III/Source/os_q.c	/^void  OS_QClr (OS_Q  *p_q)$/;"	f
+OS_QDbgListAdd	Software/uCOS-III/Source/os_q.c	/^void  OS_QDbgListAdd (OS_Q  *p_q)$/;"	f
+OS_QDbgListRemove	Software/uCOS-III/Source/os_q.c	/^void  OS_QDbgListRemove (OS_Q  *p_q)$/;"	f
+OS_QInit	Software/uCOS-III/Source/os_q.c	/^void  OS_QInit (OS_ERR  *p_err)$/;"	f
+OS_QPost	Software/uCOS-III/Source/os_q.c	/^void  OS_QPost (OS_Q         *p_q,$/;"	f
+OS_QTY	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT16U      OS_QTY;                      \/* Quantity                                            <16>\/32 *\/$/;"	t
+OS_RATE_HZ	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT32U      OS_RATE_HZ;                  \/* Rate in Hertz                                            32 *\/$/;"	t
+OS_RDY_LIST	Software/uCOS-III/Source/os.h	/^typedef  struct  os_rdy_list         OS_RDY_LIST;$/;"	t	typeref:struct:os_rdy_list
+OS_REG	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT32U      OS_REG;                      \/* Task register                                     8\/16\/<32> *\/$/;"	t
+OS_REG_ID	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT08U      OS_REG_ID;                   \/* Index to task register                            <8>\/16\/32 *\/$/;"	t
+OS_RdyListInit	Software/uCOS-III/Source/os_core.c	/^void  OS_RdyListInit (void)$/;"	f
+OS_RdyListInsert	Software/uCOS-III/Source/os_core.c	/^void  OS_RdyListInsert (OS_TCB  *p_tcb)$/;"	f
+OS_RdyListInsertHead	Software/uCOS-III/Source/os_core.c	/^void  OS_RdyListInsertHead (OS_TCB  *p_tcb)$/;"	f
+OS_RdyListInsertTail	Software/uCOS-III/Source/os_core.c	/^void  OS_RdyListInsertTail (OS_TCB  *p_tcb)$/;"	f
+OS_RdyListMoveHeadToTail	Software/uCOS-III/Source/os_core.c	/^void  OS_RdyListMoveHeadToTail (OS_RDY_LIST  *p_rdy_list)$/;"	f
+OS_RdyListRemove	Software/uCOS-III/Source/os_core.c	/^void  OS_RdyListRemove (OS_TCB  *p_tcb)$/;"	f
+OS_SCHED_LOCK_TIME_MEAS_START	Software/uCOS-III/Source/os.h	75;"	d
+OS_SCHED_LOCK_TIME_MEAS_START	Software/uCOS-III/Source/os.h	77;"	d
+OS_SCHED_LOCK_TIME_MEAS_STOP	Software/uCOS-III/Source/os.h	82;"	d
+OS_SCHED_LOCK_TIME_MEAS_STOP	Software/uCOS-III/Source/os.h	84;"	d
+OS_SEM	Software/uCOS-III/Source/os.h	/^typedef  struct  os_sem              OS_SEM;$/;"	t	typeref:struct:os_sem
+OS_SEM_CTR	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT32U      OS_SEM_CTR;                  \/* Semaphore value                                     16\/<32> *\/$/;"	t
+OS_STATE	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT08U      OS_STATE;                    \/* State variable                                    <8>\/16\/32 *\/$/;"	t
+OS_STATE_NOT_RDY	Software/uCOS-III/Source/os.h	186;"	d
+OS_STATE_OS_RUNNING	Software/uCOS-III/Source/os.h	184;"	d
+OS_STATE_OS_STOPPED	Software/uCOS-III/Source/os.h	183;"	d
+OS_STATE_RDY	Software/uCOS-III/Source/os.h	187;"	d
+OS_STATUS	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT08U      OS_STATUS;                   \/* Status                                            <8>\/16\/32 *\/$/;"	t
+OS_STATUS_PEND_ABORT	Software/uCOS-III/Source/os.h	227;"	d
+OS_STATUS_PEND_DEL	Software/uCOS-III/Source/os.h	228;"	d
+OS_STATUS_PEND_OK	Software/uCOS-III/Source/os.h	226;"	d
+OS_STATUS_PEND_TIMEOUT	Software/uCOS-III/Source/os.h	229;"	d
+OS_Sched0	Software/uCOS-III/Source/os_core.c	/^void  OS_Sched0 (void)$/;"	f
+OS_SchedLockTimeMeasStart	Software/uCOS-III/Source/os_core.c	/^void  OS_SchedLockTimeMeasStart (void)$/;"	f
+OS_SchedLockTimeMeasStop	Software/uCOS-III/Source/os_core.c	/^void  OS_SchedLockTimeMeasStop (void)$/;"	f
+OS_SchedRoundRobin	Software/uCOS-III/Source/os_core.c	/^void  OS_SchedRoundRobin (OS_RDY_LIST  *p_rdy_list)$/;"	f
+OS_SemClr	Software/uCOS-III/Source/os_sem.c	/^void  OS_SemClr (OS_SEM  *p_sem)$/;"	f
+OS_SemDbgListAdd	Software/uCOS-III/Source/os_sem.c	/^void  OS_SemDbgListAdd (OS_SEM  *p_sem)$/;"	f
+OS_SemDbgListRemove	Software/uCOS-III/Source/os_sem.c	/^void  OS_SemDbgListRemove (OS_SEM  *p_sem)$/;"	f
+OS_SemInit	Software/uCOS-III/Source/os_sem.c	/^void  OS_SemInit (OS_ERR  *p_err)$/;"	f
+OS_SemPost	Software/uCOS-III/Source/os_sem.c	/^OS_SEM_CTR  OS_SemPost (OS_SEM  *p_sem,$/;"	f
+OS_StatTask	Software/uCOS-III/Source/os_stat.c	/^void  OS_StatTask (void  *p_arg)$/;"	f
+OS_StatTaskInit	Software/uCOS-III/Source/os_stat.c	/^void  OS_StatTaskInit (OS_ERR  *p_err)$/;"	f
+OS_TASK_PEND_ON_FLAG	Software/uCOS-III/Source/os.h	211;"	d
+OS_TASK_PEND_ON_MULTI	Software/uCOS-III/Source/os.h	213;"	d
+OS_TASK_PEND_ON_MUTEX	Software/uCOS-III/Source/os.h	214;"	d
+OS_TASK_PEND_ON_NOTHING	Software/uCOS-III/Source/os.h	210;"	d
+OS_TASK_PEND_ON_Q	Software/uCOS-III/Source/os.h	215;"	d
+OS_TASK_PEND_ON_SEM	Software/uCOS-III/Source/os.h	216;"	d
+OS_TASK_PEND_ON_TASK_Q	Software/uCOS-III/Source/os.h	212;"	d
+OS_TASK_PEND_ON_TASK_SEM	Software/uCOS-III/Source/os.h	217;"	d
+OS_TASK_PTR	Software/uCOS-III/Source/os.h	/^typedef  void                      (*OS_TASK_PTR)(void *p_arg);$/;"	t
+OS_TASK_STATE_BIT_DLY	Software/uCOS-III/Source/os.h	191;"	d
+OS_TASK_STATE_BIT_PEND	Software/uCOS-III/Source/os.h	193;"	d
+OS_TASK_STATE_BIT_SUSPENDED	Software/uCOS-III/Source/os.h	195;"	d
+OS_TASK_STATE_DEL	Software/uCOS-III/Source/os.h	207;"	d
+OS_TASK_STATE_DLY	Software/uCOS-III/Source/os.h	200;"	d
+OS_TASK_STATE_DLY_SUSPENDED	Software/uCOS-III/Source/os.h	204;"	d
+OS_TASK_STATE_PEND	Software/uCOS-III/Source/os.h	201;"	d
+OS_TASK_STATE_PEND_SUSPENDED	Software/uCOS-III/Source/os.h	205;"	d
+OS_TASK_STATE_PEND_TIMEOUT	Software/uCOS-III/Source/os.h	202;"	d
+OS_TASK_STATE_PEND_TIMEOUT_SUSPENDED	Software/uCOS-III/Source/os.h	206;"	d
+OS_TASK_STATE_RDY	Software/uCOS-III/Source/os.h	199;"	d
+OS_TASK_STATE_SUSPENDED	Software/uCOS-III/Source/os.h	203;"	d
+OS_TCB	Software/uCOS-III/Source/os.h	/^typedef  struct  os_tcb              OS_TCB;$/;"	t	typeref:struct:os_tcb
+OS_TICK	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT32U      OS_TICK;                     \/* Clock tick counter                                  <32>\/64 *\/$/;"	t
+OS_TICK_SPOKE	Software/uCOS-III/Source/os.h	/^typedef  struct  os_tick_spoke       OS_TICK_SPOKE;$/;"	t	typeref:struct:os_tick_spoke
+OS_TICK_SPOKE_IX	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT16U      OS_TICK_SPOKE_IX;            \/* Tick wheel spoke position                         8\/<16>\/32 *\/$/;"	t
+OS_TICK_TH_INIT	Software/uCOS-III/Source/os.h	400;"	d
+OS_TICK_TH_RDY	Software/uCOS-III/Source/os.h	403;"	d
+OS_TLS	Software/uCOS-III/Source/os.h	/^typedef  void                       *OS_TLS;$/;"	t
+OS_TLS_DESTRUCT_PTR	Software/uCOS-III/Source/os.h	/^typedef  void                      (*OS_TLS_DESTRUCT_PTR)(OS_TCB    *p_tcb,$/;"	t
+OS_TLS_DestructPtrTbl	Software/uCOS-III/TLS/CCES/os_tls.c	/^static  OS_TLS_DESTRUCT_PTR  OS_TLS_DestructPtrTbl[OS_CFG_TLS_TBL_SIZE];$/;"	v	file:
+OS_TLS_GetID	Software/uCOS-III/TLS/CCES/os_tls.c	/^OS_TLS_ID  OS_TLS_GetID (OS_ERR  *p_err)$/;"	f
+OS_TLS_GetID	Software/uCOS-III/TLS/IAR/os_tls.c	/^OS_TLS_ID  OS_TLS_GetID (OS_ERR  *p_err)$/;"	f
+OS_TLS_GetValue	Software/uCOS-III/TLS/CCES/os_tls.c	/^OS_TLS  OS_TLS_GetValue (OS_TCB     *p_tcb,$/;"	f
+OS_TLS_GetValue	Software/uCOS-III/TLS/IAR/os_tls.c	/^OS_TLS  OS_TLS_GetValue (OS_TCB     *p_tcb,$/;"	f
+OS_TLS_ID	Software/uCOS-III/Source/os.h	/^typedef  CPU_DATA                    OS_TLS_ID;$/;"	t
+OS_TLS_Init	Software/uCOS-III/TLS/CCES/os_tls.c	/^void  OS_TLS_Init (OS_ERR *p_err)$/;"	f
+OS_TLS_Init	Software/uCOS-III/TLS/IAR/os_tls.c	/^void  OS_TLS_Init (OS_ERR *p_err)$/;"	f
+OS_TLS_LOCK	Software/uCOS-III/TLS/IAR/os_tls.c	/^typedef  struct  os_tls_lock   OS_TLS_LOCK;$/;"	t	typeref:struct:os_tls_lock	file:
+OS_TLS_LOCK_MAX	Software/uCOS-III/TLS/IAR/os_tls.c	53;"	d	file:
+OS_TLS_LOCK_MAX	Software/uCOS-III/TLS/IAR/os_tls.c	55;"	d	file:
+OS_TLS_LibID	Software/uCOS-III/TLS/IAR/os_tls.c	/^static  CPU_DATA            OS_TLS_LibID;                                 \/* ID used to store library space pointer   *\/$/;"	v	file:
+OS_TLS_LockAcquire	Software/uCOS-III/TLS/IAR/os_tls.c	/^void  OS_TLS_LockAcquire (void  *p_lock)$/;"	f
+OS_TLS_LockCreate	Software/uCOS-III/TLS/IAR/os_tls.c	/^void  OS_TLS_LockCreate (void  **p_lock)$/;"	f
+OS_TLS_LockDel	Software/uCOS-III/TLS/IAR/os_tls.c	/^void  OS_TLS_LockDel (void  *p_lock)$/;"	f
+OS_TLS_LockPoolListPtr	Software/uCOS-III/TLS/IAR/os_tls.c	/^static  OS_TLS_LOCK        *OS_TLS_LockPoolListPtr = (OS_TLS_LOCK *)0;    \/* Pointer to head of 'OS_TLS_LOCK' list    *\/$/;"	v	file:
+OS_TLS_LockPoolTbl	Software/uCOS-III/TLS/IAR/os_tls.c	/^static  OS_TLS_LOCK         OS_TLS_LockPoolTbl[OS_TLS_LOCK_MAX];$/;"	v	file:
+OS_TLS_LockRelease	Software/uCOS-III/TLS/IAR/os_tls.c	/^static  void  OS_TLS_LockRelease (void  *p_lock)$/;"	f	file:
+OS_TLS_NextAvailID	Software/uCOS-III/TLS/CCES/os_tls.c	/^static  CPU_DATA             OS_TLS_NextAvailID;                          \/* Next available TLS ID                    *\/$/;"	v	file:
+OS_TLS_NextAvailID	Software/uCOS-III/TLS/IAR/os_tls.c	/^static  CPU_DATA            OS_TLS_NextAvailID;                           \/* Next available TLS ID                    *\/$/;"	v	file:
+OS_TLS_SetDestruct	Software/uCOS-III/TLS/CCES/os_tls.c	/^void  OS_TLS_SetDestruct (OS_TLS_ID            id,$/;"	f
+OS_TLS_SetDestruct	Software/uCOS-III/TLS/IAR/os_tls.c	/^void  OS_TLS_SetDestruct (OS_TLS_ID            id,$/;"	f
+OS_TLS_SetValue	Software/uCOS-III/TLS/CCES/os_tls.c	/^void  OS_TLS_SetValue (OS_TCB     *p_tcb,$/;"	f
+OS_TLS_SetValue	Software/uCOS-III/TLS/IAR/os_tls.c	/^void  OS_TLS_SetValue (OS_TCB     *p_tcb,$/;"	f
+OS_TLS_TaskCreate	Software/uCOS-III/TLS/CCES/os_tls.c	/^void  OS_TLS_TaskCreate (OS_TCB  *p_tcb)$/;"	f
+OS_TLS_TaskCreate	Software/uCOS-III/TLS/IAR/os_tls.c	/^void  OS_TLS_TaskCreate (OS_TCB  *p_tcb)$/;"	f
+OS_TLS_TaskDel	Software/uCOS-III/TLS/CCES/os_tls.c	/^void  OS_TLS_TaskDel (OS_TCB  *p_tcb)$/;"	f
+OS_TLS_TaskDel	Software/uCOS-III/TLS/IAR/os_tls.c	/^void  OS_TLS_TaskDel (OS_TCB  *p_tcb)$/;"	f
+OS_TLS_TaskSw	Software/uCOS-III/TLS/CCES/os_tls.c	/^void  OS_TLS_TaskSw (void)$/;"	f
+OS_TLS_TaskSw	Software/uCOS-III/TLS/IAR/os_tls.c	/^void  OS_TLS_TaskSw (void)$/;"	f
+OS_TMR	Software/uCOS-III/Source/os.h	/^typedef  struct  os_tmr              OS_TMR;$/;"	t	typeref:struct:os_tmr
+OS_TMR_CALLBACK_PTR	Software/uCOS-III/Source/os.h	/^typedef  void                      (*OS_TMR_CALLBACK_PTR)(void *p_tmr, void *p_arg);$/;"	t
+OS_TMR_SPOKE	Software/uCOS-III/Source/os.h	/^typedef  struct  os_tmr_spoke        OS_TMR_SPOKE;$/;"	t	typeref:struct:os_tmr_spoke
+OS_TMR_SPOKE_IX	Software/uCOS-III/Source/os_type.h	/^typedef   CPU_INT16U      OS_TMR_SPOKE_IX;             \/* Timer wheel spoke position                        8\/<16>\/32 *\/$/;"	t
+OS_TMR_STATE_COMPLETED	Software/uCOS-III/Source/os.h	384;"	d
+OS_TMR_STATE_RUNNING	Software/uCOS-III/Source/os.h	383;"	d
+OS_TMR_STATE_STOPPED	Software/uCOS-III/Source/os.h	382;"	d
+OS_TMR_STATE_UNUSED	Software/uCOS-III/Source/os.h	381;"	d
+OS_TYPE_H	Software/uCOS-III/Source/os_type.h	32;"	d
+OS_TaskBlock	Software/uCOS-III/Source/os_core.c	/^void  OS_TaskBlock (OS_TCB   *p_tcb,$/;"	f
+OS_TaskDbgListAdd	Software/uCOS-III/Source/os_task.c	/^void  OS_TaskDbgListAdd (OS_TCB  *p_tcb)$/;"	f
+OS_TaskDbgListRemove	Software/uCOS-III/Source/os_task.c	/^void  OS_TaskDbgListRemove (OS_TCB  *p_tcb)$/;"	f
+OS_TaskInit	Software/uCOS-III/Source/os_task.c	/^void  OS_TaskInit (OS_ERR  *p_err)$/;"	f
+OS_TaskInitTCB	Software/uCOS-III/Source/os_task.c	/^void  OS_TaskInitTCB (OS_TCB  *p_tcb)$/;"	f
+OS_TaskQPost	Software/uCOS-III/Source/os_task.c	/^void  OS_TaskQPost (OS_TCB       *p_tcb,$/;"	f
+OS_TaskRdy	Software/uCOS-III/Source/os_core.c	/^void  OS_TaskRdy (OS_TCB  *p_tcb)$/;"	f
+OS_TaskResume	Software/uCOS-III/Source/os_task.c	/^void  OS_TaskResume (OS_TCB  *p_tcb,$/;"	f
+OS_TaskReturn	Software/uCOS-III/Source/os_task.c	/^void  OS_TaskReturn (void)$/;"	f
+OS_TaskSemPost	Software/uCOS-III/Source/os_task.c	/^OS_SEM_CTR  OS_TaskSemPost (OS_TCB  *p_tcb,$/;"	f
+OS_TaskSuspend	Software/uCOS-III/Source/os_task.c	/^void   OS_TaskSuspend (OS_TCB  *p_tcb,$/;"	f
+OS_TickListInit	Software/uCOS-III/Source/os_tick.c	/^void  OS_TickListInit (void)$/;"	f
+OS_TickListInsert	Software/uCOS-III/Source/os_tick.c	/^void  OS_TickListInsert (OS_TCB   *p_tcb,$/;"	f
+OS_TickListRemove	Software/uCOS-III/Source/os_tick.c	/^void  OS_TickListRemove (OS_TCB  *p_tcb)$/;"	f
+OS_TickListResetPeak	Software/uCOS-III/Source/os_tick.c	/^void  OS_TickListResetPeak (void)$/;"	f
+OS_TickListUpdate	Software/uCOS-III/Source/os_tick.c	/^void  OS_TickListUpdate (void)$/;"	f
+OS_TickTask	Software/uCOS-III/Source/os_tick.c	/^void  OS_TickTask (void  *p_arg)$/;"	f
+OS_TickTaskInit	Software/uCOS-III/Source/os_tick.c	/^void  OS_TickTaskInit (OS_ERR  *p_err)$/;"	f
+OS_TmrClr	Software/uCOS-III/Source/os_tmr.c	/^void  OS_TmrClr (OS_TMR  *p_tmr)$/;"	f
+OS_TmrDbgListAdd	Software/uCOS-III/Source/os_tmr.c	/^void  OS_TmrDbgListAdd (OS_TMR  *p_tmr)$/;"	f
+OS_TmrDbgListRemove	Software/uCOS-III/Source/os_tmr.c	/^void  OS_TmrDbgListRemove (OS_TMR  *p_tmr)$/;"	f
+OS_TmrInit	Software/uCOS-III/Source/os_tmr.c	/^void  OS_TmrInit (OS_ERR  *p_err)$/;"	f
+OS_TmrLink	Software/uCOS-III/Source/os_tmr.c	/^void  OS_TmrLink (OS_TMR  *p_tmr,$/;"	f
+OS_TmrResetPeak	Software/uCOS-III/Source/os_tmr.c	/^void  OS_TmrResetPeak (void)$/;"	f
+OS_TmrTask	Software/uCOS-III/Source/os_tmr.c	/^void  OS_TmrTask (void  *p_arg)$/;"	f
+OS_TmrUnlink	Software/uCOS-III/Source/os_tmr.c	/^void  OS_TmrUnlink (OS_TMR  *p_tmr)$/;"	f
+OS_VERSION	Software/uCOS-III/Source/os.h	45;"	d
+ObjPtr	Software/uCOS-III/Source/os.h	/^    void                *ObjPtr;                            \/* Pointer to object placed in the queue                  *\/$/;"	m	struct:os_int_q
+Opt	Software/uCOS-III/Source/os.h	/^    OS_OPT               Opt;                               \/* Options (see OS_OPT_TMR_xxx)                           *\/$/;"	m	struct:os_tmr
+Opt	Software/uCOS-III/Source/os.h	/^    OS_OPT               Opt;                               \/* Post Options                                           *\/$/;"	m	struct:os_int_q
+Opt	Software/uCOS-III/Source/os.h	/^    OS_OPT               Opt;                               \/* Task options as passed by OSTaskCreate()               *\/$/;"	m	struct:os_tcb
+OutPtr	Software/uCOS-III/Source/os.h	/^    OS_MSG              *OutPtr;                            \/* Pointer to next OS_MSG to be extracted from the queue  *\/$/;"	m	struct:os_msg_q
+OwnerNestingCtr	Software/uCOS-III/Source/os.h	/^    OS_NESTING_CTR       OwnerNestingCtr;                   \/* Mutex is available when the counter is 0               *\/$/;"	m	struct:os_mutex
+OwnerOriginalPrio	Software/uCOS-III/Source/os.h	/^    OS_PRIO              OwnerOriginalPrio;$/;"	m	struct:os_mutex
+OwnerTCBPtr	Software/uCOS-III/Source/os.h	/^    OS_TCB              *OwnerTCBPtr;$/;"	m	struct:os_mutex
+PendDataTblEntries	Software/uCOS-III/Source/os.h	/^    OS_OBJ_QTY           PendDataTblEntries;                \/* Size of array of objects to pend on                    *\/$/;"	m	struct:os_tcb
+PendDataTblPtr	Software/uCOS-III/Source/os.h	/^    OS_PEND_DATA        *PendDataTblPtr;                    \/* Pointer to list containing objects pended on           *\/$/;"	m	struct:os_tcb
+PendList	Software/uCOS-III/Source/os.h	/^    OS_PEND_LIST         PendList;                          \/* List of tasks pending on object                        *\/$/;"	m	struct:os_pend_obj
+PendList	Software/uCOS-III/Source/os.h	/^    OS_PEND_LIST         PendList;                          \/* List of tasks waiting on event flag group              *\/$/;"	m	struct:os_flag_grp
+PendList	Software/uCOS-III/Source/os.h	/^    OS_PEND_LIST         PendList;                          \/* List of tasks waiting on message queue                 *\/$/;"	m	struct:os_q
+PendList	Software/uCOS-III/Source/os.h	/^    OS_PEND_LIST         PendList;                          \/* List of tasks waiting on mutex                         *\/$/;"	m	struct:os_mutex
+PendList	Software/uCOS-III/Source/os.h	/^    OS_PEND_LIST         PendList;                          \/* List of tasks waiting on semaphore                     *\/$/;"	m	struct:os_sem
+PendObjPtr	Software/uCOS-III/Source/os.h	/^    OS_PEND_OBJ         *PendObjPtr;$/;"	m	struct:os_pend_data
+PendOn	Software/uCOS-III/Source/os.h	/^    OS_STATE             PendOn;                            \/* Indicates what task is pending on                      *\/$/;"	m	struct:os_tcb
+PendStatus	Software/uCOS-III/Source/os.h	/^    OS_STATUS            PendStatus;                        \/* Pend status                                            *\/$/;"	m	struct:os_tcb
+Period	Software/uCOS-III/Source/os.h	/^    OS_TICK              Period;                            \/* Period to repeat timer                                 *\/$/;"	m	struct:os_tmr
+PrevPtr	Software/uCOS-III/Source/os.h	/^    OS_PEND_DATA        *PrevPtr;$/;"	m	struct:os_pend_data
+PrevPtr	Software/uCOS-III/Source/os.h	/^    OS_TCB              *PrevPtr;                           \/* Pointer to previous TCB in the TCB list                *\/$/;"	m	struct:os_tcb
+PrevPtr	Software/uCOS-III/Source/os.h	/^    OS_TMR              *PrevPtr;$/;"	m	struct:os_tmr
+Prio	Software/uCOS-III/Source/os.h	/^    OS_PRIO              Prio;                              \/* Task priority (0 == highest)                           *\/$/;"	m	struct:os_tcb
+RdyMsgPtr	Software/uCOS-III/Source/os.h	/^    void                *RdyMsgPtr;$/;"	m	struct:os_pend_data
+RdyMsgSize	Software/uCOS-III/Source/os.h	/^    OS_MSG_SIZE          RdyMsgSize;$/;"	m	struct:os_pend_data
+RdyObjPtr	Software/uCOS-III/Source/os.h	/^    OS_PEND_OBJ         *RdyObjPtr;$/;"	m	struct:os_pend_data
+RdyTS	Software/uCOS-III/Source/os.h	/^    CPU_TS               RdyTS;$/;"	m	struct:os_pend_data
+RegTbl	Software/uCOS-III/Source/os.h	/^    OS_REG               RegTbl[OS_CFG_TASK_REG_TBL_SIZE];  \/* Task specific registers                                *\/$/;"	m	struct:os_tcb
+Remain	Software/uCOS-III/Source/os.h	/^    OS_TICK              Remain;                            \/* Amount of time remaining before timer expires          *\/$/;"	m	struct:os_tmr
+SchedLockTimeMax	Software/uCOS-III/Source/os.h	/^    CPU_TS               SchedLockTimeMax;                  \/* Maximum scheduler lock time                            *\/$/;"	m	struct:os_tcb
+SemCtr	Software/uCOS-III/Source/os.h	/^    OS_SEM_CTR           SemCtr;                            \/* Task specific semaphore counter                        *\/$/;"	m	struct:os_tcb
+SemPendTime	Software/uCOS-III/Source/os.h	/^    CPU_TS               SemPendTime;                       \/* Time it took for signal to be received                 *\/$/;"	m	struct:os_tcb
+SemPendTimeMax	Software/uCOS-III/Source/os.h	/^    CPU_TS               SemPendTimeMax;                    \/* Max amount of time it took for signal to be received   *\/$/;"	m	struct:os_tcb
+State	Software/uCOS-III/Source/os.h	/^    OS_STATE             State;$/;"	m	struct:os_tmr
+StkBasePtr	Software/uCOS-III/Source/os.h	/^    CPU_STK             *StkBasePtr;                        \/* Pointer to base address of stack                       *\/$/;"	m	struct:os_tcb
+StkFree	Software/uCOS-III/Source/os.h	/^    CPU_STK_SIZE         StkFree;                           \/* Number of stack elements free on   the stack           *\/$/;"	m	struct:os_tcb
+StkLimitPtr	Software/uCOS-III/Source/os.h	/^    CPU_STK             *StkLimitPtr;                       \/* Pointer used to set stack 'watermark' limit            *\/$/;"	m	struct:os_tcb
+StkPtr	Software/uCOS-III/Source/os.h	/^    CPU_STK             *StkPtr;                            \/* Pointer to current top of stack                        *\/$/;"	m	struct:os_tcb
+StkSize	Software/uCOS-III/Source/os.h	/^    CPU_STK_SIZE         StkSize;                           \/* Size of task stack (in number of stack elements)       *\/$/;"	m	struct:os_tcb
+StkUsed	Software/uCOS-III/Source/os.h	/^    CPU_STK_SIZE         StkUsed;                           \/* Number of stack elements used from the stack           *\/$/;"	m	struct:os_tcb
+SuspendCtr	Software/uCOS-III/Source/os.h	/^    OS_NESTING_CTR       SuspendCtr;                        \/* Nesting counter for OSTaskSuspend()                    *\/$/;"	m	struct:os_tcb
+TCBPtr	Software/uCOS-III/Source/os.h	/^    OS_TCB              *TCBPtr;$/;"	m	struct:os_pend_data
+TLS_Tbl	Software/uCOS-III/Source/os.h	/^    OS_TLS               TLS_Tbl[OS_CFG_TLS_TBL_SIZE];$/;"	m	struct:os_tcb
+TS	Software/uCOS-III/Source/os.h	/^    CPU_TS               TS;                                \/* Timestamp                                              *\/$/;"	m	struct:os_int_q
+TS	Software/uCOS-III/Source/os.h	/^    CPU_TS               TS;                                \/* Timestamp                                              *\/$/;"	m	struct:os_tcb
+TS	Software/uCOS-III/Source/os.h	/^    CPU_TS               TS;                                \/* Timestamp of when last post occurred                   *\/$/;"	m	struct:os_flag_grp
+TS	Software/uCOS-III/Source/os.h	/^    CPU_TS               TS;$/;"	m	struct:os_mutex
+TS	Software/uCOS-III/Source/os.h	/^    CPU_TS               TS;$/;"	m	struct:os_sem
+TailPtr	Software/uCOS-III/Source/os.h	/^    OS_PEND_DATA        *TailPtr;$/;"	m	struct:os_pend_list
+TailPtr	Software/uCOS-III/Source/os.h	/^    OS_TCB              *TailPtr;                           \/* Pointer to last task          at selected priority     *\/$/;"	m	struct:os_rdy_list
+TaskEntryAddr	Software/uCOS-III/Source/os.h	/^    OS_TASK_PTR          TaskEntryAddr;                     \/* Pointer to task entry point address                    *\/$/;"	m	struct:os_tcb
+TaskEntryArg	Software/uCOS-III/Source/os.h	/^    void                *TaskEntryArg;                      \/* Argument passed to task when it was created            *\/$/;"	m	struct:os_tcb
+TaskState	Software/uCOS-III/Source/os.h	/^    OS_STATE             TaskState;                         \/* See OS_TASK_STATE_xxx                                  *\/$/;"	m	struct:os_tcb
+TickCtrMatch	Software/uCOS-III/Source/os.h	/^    OS_TICK              TickCtrMatch;                      \/* Absolute time when task is going to be ready           *\/$/;"	m	struct:os_tcb
+TickCtrPrev	Software/uCOS-III/Source/os.h	/^    OS_TICK              TickCtrPrev;                       \/* Previous time when task was            ready           *\/$/;"	m	struct:os_tcb
+TickNextPtr	Software/uCOS-III/Source/os.h	/^    OS_TCB              *TickNextPtr;$/;"	m	struct:os_tcb
+TickPrevPtr	Software/uCOS-III/Source/os.h	/^    OS_TCB              *TickPrevPtr;$/;"	m	struct:os_tcb
+TickRemain	Software/uCOS-III/Source/os.h	/^    OS_TICK              TickRemain;                        \/* Number of ticks remaining for a match (updated at ...  *\/$/;"	m	struct:os_tcb
+TickSpokePtr	Software/uCOS-III/Source/os.h	/^    OS_TICK_SPOKE       *TickSpokePtr;                      \/* Pointer to tick spoke if task is in the tick list      *\/$/;"	m	struct:os_tcb
+TimeQuanta	Software/uCOS-III/Source/os.h	/^    OS_TICK              TimeQuanta;$/;"	m	struct:os_tcb
+TimeQuantaCtr	Software/uCOS-III/Source/os.h	/^    OS_TICK              TimeQuantaCtr;$/;"	m	struct:os_tcb
+Type	Software/uCOS-III/Source/os.h	/^    OS_OBJ_TYPE          Type;                              \/* Should be set to OS_OBJ_TYPE_FLAG                      *\/$/;"	m	struct:os_flag_grp
+Type	Software/uCOS-III/Source/os.h	/^    OS_OBJ_TYPE          Type;                              \/* Should be set to OS_OBJ_TYPE_MEM                       *\/$/;"	m	struct:os_mem
+Type	Software/uCOS-III/Source/os.h	/^    OS_OBJ_TYPE          Type;                              \/* Should be set to OS_OBJ_TYPE_MUTEX                     *\/$/;"	m	struct:os_mutex
+Type	Software/uCOS-III/Source/os.h	/^    OS_OBJ_TYPE          Type;                              \/* Should be set to OS_OBJ_TYPE_Q                         *\/$/;"	m	struct:os_q
+Type	Software/uCOS-III/Source/os.h	/^    OS_OBJ_TYPE          Type;                              \/* Should be set to OS_OBJ_TYPE_SEM                       *\/$/;"	m	struct:os_sem
+Type	Software/uCOS-III/Source/os.h	/^    OS_OBJ_TYPE          Type;                              \/* Type of object placed in the circular list             *\/$/;"	m	struct:os_int_q
+Type	Software/uCOS-III/Source/os.h	/^    OS_OBJ_TYPE          Type;$/;"	m	struct:os_pend_obj
+Type	Software/uCOS-III/Source/os.h	/^    OS_OBJ_TYPE          Type;$/;"	m	struct:os_tmr
+__iar_dlib_perthread_access	Software/uCOS-III/TLS/IAR/os_tls.c	/^void  _DLIB_TLS_MEMORY  *__iar_dlib_perthread_access (void  _DLIB_TLS_MEMORY  *symbp)$/;"	f
+__iar_file_Mtxdst	Software/uCOS-III/TLS/IAR/os_tls.c	/^void __iar_file_Mtxdst(__iar_Rmtx  *p_lock) $/;"	f
+__iar_file_Mtxinit	Software/uCOS-III/TLS/IAR/os_tls.c	/^void  __iar_file_Mtxinit (__iar_Rmtx  *p_lock) $/;"	f
+__iar_file_Mtxlock	Software/uCOS-III/TLS/IAR/os_tls.c	/^void __iar_file_Mtxlock(__iar_Rmtx  *p_lock) $/;"	f
+__iar_file_Mtxunlock	Software/uCOS-III/TLS/IAR/os_tls.c	/^void __iar_file_Mtxunlock(__iar_Rmtx  *p_lock) $/;"	f
+__iar_system_Mtxdst	Software/uCOS-III/TLS/IAR/os_tls.c	/^void __iar_system_Mtxdst(__iar_Rmtx  *p_lock) $/;"	f
+__iar_system_Mtxinit	Software/uCOS-III/TLS/IAR/os_tls.c	/^void  __iar_system_Mtxinit (__iar_Rmtx  *p_lock) $/;"	f
+__iar_system_Mtxlock	Software/uCOS-III/TLS/IAR/os_tls.c	/^void __iar_system_Mtxlock(__iar_Rmtx  *p_lock) $/;"	f
+__iar_system_Mtxunlock	Software/uCOS-III/TLS/IAR/os_tls.c	/^void __iar_system_Mtxunlock(__iar_Rmtx  *p_lock) $/;"	f
+os_cfg_app__c	Software/uCOS-III/Source/os_cfg_app.c	/^const  CPU_CHAR  *os_cfg_app__c = "$Id: $";$/;"	v
+os_core__c	Software/uCOS-III/Source/os_core.c	/^const  CPU_CHAR  *os_core__c = "$Id: $";$/;"	v
+os_dbg__c	Software/uCOS-III/Source/os_dbg.c	/^const  CPU_CHAR  *os_dbg__c = "$Id: $";$/;"	v
+os_err	Software/uCOS-III/Source/os.h	/^typedef  enum  os_err {$/;"	g
+os_flag__c	Software/uCOS-III/Source/os_flag.c	/^const  CPU_CHAR  *os_flag__c = "$Id: $";$/;"	v
+os_flag_grp	Software/uCOS-III/Source/os.h	/^struct  os_flag_grp {                                       \/* Event Flag Group                                       *\/$/;"	s
+os_int__c	Software/uCOS-III/Source/os_int.c	/^const  CPU_CHAR  *os_int__c = "$Id: $";$/;"	v
+os_int_q	Software/uCOS-III/Source/os.h	/^struct  os_int_q {$/;"	s
+os_mem	Software/uCOS-III/Source/os.h	/^struct os_mem {                                             \/* MEMORY CONTROL BLOCK                                   *\/$/;"	s
+os_mem__c	Software/uCOS-III/Source/os_mem.c	/^const  CPU_CHAR  *os_mem__c = "$Id: $";$/;"	v
+os_msg	Software/uCOS-III/Source/os.h	/^struct  os_msg {                                            \/* MESSAGE CONTROL BLOCK                                  *\/$/;"	s
+os_msg__c	Software/uCOS-III/Source/os_msg.c	/^const  CPU_CHAR  *os_msg__c = "$Id: $";$/;"	v
+os_msg_pool	Software/uCOS-III/Source/os.h	/^struct  os_msg_pool {                                       \/* OS_MSG POOL                                            *\/$/;"	s
+os_msg_q	Software/uCOS-III/Source/os.h	/^struct  os_msg_q {                                          \/* OS_MSG_Q                                               *\/$/;"	s
+os_mutex	Software/uCOS-III/Source/os.h	/^struct  os_mutex {                                          \/* Mutual Exclusion Semaphore                             *\/$/;"	s
+os_mutex__c	Software/uCOS-III/Source/os_mutex.c	/^const  CPU_CHAR  *os_mutex__c = "$Id: $";$/;"	v
+os_pend_data	Software/uCOS-III/Source/os.h	/^struct  os_pend_data {$/;"	s
+os_pend_list	Software/uCOS-III/Source/os.h	/^struct  os_pend_list {$/;"	s
+os_pend_multi__c	Software/uCOS-III/Source/os_pend_multi.c	/^const  CPU_CHAR  *os_pend_multi__c = "$Id: $";$/;"	v
+os_pend_obj	Software/uCOS-III/Source/os.h	/^struct  os_pend_obj {$/;"	s
+os_prio__c	Software/uCOS-III/Source/os_prio.c	/^const  CPU_CHAR  *os_prio__c = "$Id: $";$/;"	v
+os_q	Software/uCOS-III/Source/os.h	/^struct  os_q {                                              \/* Message Queue                                          *\/$/;"	s
+os_q__c	Software/uCOS-III/Source/os_q.c	/^const  CPU_CHAR  *os_q__c = "$Id: $";$/;"	v
+os_rdy_list	Software/uCOS-III/Source/os.h	/^struct  os_rdy_list {$/;"	s
+os_sem	Software/uCOS-III/Source/os.h	/^struct  os_sem {                                            \/* Semaphore                                              *\/$/;"	s
+os_sem__c	Software/uCOS-III/Source/os_sem.c	/^const  CPU_CHAR  *os_sem__c = "$Id: $";$/;"	v
+os_stat__c	Software/uCOS-III/Source/os_stat.c	/^const  CPU_CHAR  *os_stat__c = "$Id: $";$/;"	v
+os_task__c	Software/uCOS-III/Source/os_task.c	/^const  CPU_CHAR  *os_task__c = "$Id: $";$/;"	v
+os_tcb	Software/uCOS-III/Source/os.h	/^struct os_tcb {$/;"	s
+os_tick__c	Software/uCOS-III/Source/os_tick.c	/^const  CPU_CHAR  *os_tick__c = "$Id: $";$/;"	v
+os_tick_spoke	Software/uCOS-III/Source/os.h	/^struct  os_tick_spoke {$/;"	s
+os_time__c	Software/uCOS-III/Source/os_time.c	/^const  CPU_CHAR  *os_time__c = "$Id: $";$/;"	v
+os_tls__c	Software/uCOS-III/TLS/CCES/os_tls.c	/^const  CPU_CHAR  *os_tls__c = "$Id: $";$/;"	v
+os_tls__c	Software/uCOS-III/TLS/IAR/os_tls.c	/^const  CPU_CHAR  *os_tls__c = "$Id: $";$/;"	v
+os_tls_lock	Software/uCOS-III/TLS/IAR/os_tls.c	/^struct  os_tls_lock {                                           $/;"	s	file:
+os_tmr	Software/uCOS-III/Source/os.h	/^struct  os_tmr {$/;"	s
+os_tmr__c	Software/uCOS-III/Source/os_tmr.c	/^const  CPU_CHAR  *os_tmr__c = "$Id: $";$/;"	v
+os_tmr_spoke	Software/uCOS-III/Source/os.h	/^struct  os_tmr_spoke {$/;"	s
+os_type__h	Software/uCOS-III/Source/os_type.h	/^const     CPU_CHAR  *os_type__h = "$Id: $";$/;"	v
+os_var__c	Software/uCOS-III/Source/os_var.c	/^const  CPU_CHAR  *os_var__c = "$Id: $";$/;"	v
